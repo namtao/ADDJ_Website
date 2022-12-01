@@ -1,0 +1,75 @@
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Entity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Entity.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Core.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Newtonsoft.Json.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Lucene.Net.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Highlighter.Net.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\SimilarityNet.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Core.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Newtonsoft.Json.xml
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.xml
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\Bin\Release\Highlighter.Net.xml
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csprojResolveAssemblyReference.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csproj.CopyComplete
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Entity.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Entity.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Core.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Newtonsoft.Json.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Lucene.Net.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Highlighter.Net.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\SimilarityNet.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\ADDJ.Core.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Newtonsoft.Json.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Newtonsoft.Json.xml
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\SolrNet.xml
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\Bin\Release\Highlighter.Net.xml
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csproj.CoreCompileInputs.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csproj.CopyComplete
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.GQKN.Entity\obj\Release\ADDJ.Entity.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Entity.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Entity.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Core.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Lucene.Net.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Highlighter.Net.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SimilarityNet.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Core.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SolrNet.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SolrNet.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Highlighter.Net.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.csproj.CopyComplete
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Entity.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Entity.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Core.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Lucene.Net.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Highlighter.Net.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SimilarityNet.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\ADDJ.Core.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Newtonsoft.Json.xml
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SolrNet.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\SolrNet.xml
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\Bin\Release\Highlighter.Net.xml
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.csprojAssemblyReference.cache
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.csproj.CopyComplete
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Entity\obj\Release\ADDJ.Entity.pdb

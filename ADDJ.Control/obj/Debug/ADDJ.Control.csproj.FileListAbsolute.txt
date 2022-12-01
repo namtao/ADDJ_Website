@@ -1,0 +1,55 @@
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+E:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.dll
+E:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.pdb
+E:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+E:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.dll
+E:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\Bin\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Control\obj\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\AIVietNam.Control\Bin\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\AIVietNam.Control\Bin\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\AIVietNam.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\AIVietNam.Control\obj\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\AIVietNam.Control\obj\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csprojAssemblyReference.cache
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.dll
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.pdb
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.dll
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.pdb
+D:\data\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.AssemblyReference.cache
+D:\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.dll
+D:\Code\ADDJ.Control\Bin\Debug\ADDJ.Control.pdb
+D:\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.AssemblyReference.cache
+D:\Code\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+D:\Code\ADDJ.Control\obj\Debug\ADDJ.Control.dll
+D:\Code\ADDJ.Control\obj\Debug\ADDJ.Control.pdb
+E:\Code\Website\ADDJ.Control\Bin\Debug\ADDJ.Control.dll
+E:\Code\Website\ADDJ.Control\Bin\Debug\ADDJ.Control.pdb
+E:\Code\Website\ADDJ.Control\obj\Debug\ADDJ.Control.csproj.CoreCompileInputs.cache
+E:\Code\Website\ADDJ.Control\obj\Debug\ADDJ.Control.dll
+E:\Code\Website\ADDJ.Control\obj\Debug\ADDJ.Control.pdb

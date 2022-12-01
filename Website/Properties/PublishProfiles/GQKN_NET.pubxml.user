@@ -1,0 +1,4795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\code\he thong ho tro ky thuat tap trung\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/Ajax/AutocompleteProcess.ashx">
+      <publishTime>02/13/2017 07:39:13</publishTime>
+    </File>
+    <File Include="Admin/Ajax/SendMessageHander.ashx">
+      <publishTime>02/13/2017 07:39:13</publishTime>
+    </File>
+    <File Include="Admin/Cache/Clear.aspx">
+      <publishTime>02/13/2017 07:39:13</publishTime>
+    </File>
+    <File Include="Admin/Cache/DanhSach.aspx">
+      <publishTime>03/03/2017 14:30:33</publishTime>
+    </File>
+    <File Include="Admin/ClearCache.aspx">
+      <publishTime>03/03/2017 14:29:50</publishTime>
+    </File>
+    <File Include="Admin/ConfigurationArchive.aspx">
+      <publishTime>03/03/2017 13:56:12</publishTime>
+    </File>
+    <File Include="Admin/ConfigurationArchive_add.aspx">
+      <publishTime>03/03/2017 08:31:35</publishTime>
+    </File>
+    <File Include="Admin/ConfigurationSystem.aspx">
+      <publishTime>03/05/2017 22:28:54</publishTime>
+    </File>
+    <File Include="Admin/ConfigurationTime.aspx">
+      <publishTime>03/05/2017 22:28:19</publishTime>
+    </File>
+    <File Include="Admin/CongTyDoiTac_Add.aspx">
+      <publishTime>04/23/2017 21:09:12</publishTime>
+    </File>
+    <File Include="Admin/CongTyDoiTac_Manager.aspx">
+      <publishTime>03/03/2017 15:41:05</publishTime>
+    </File>
+    <File Include="Admin/Control/GridViewPager.ascx">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Control/ucPaging.ascx">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/DauSoCP_Add.aspx">
+      <publishTime>03/03/2017 08:42:49</publishTime>
+    </File>
+    <File Include="Admin/DauSoCP_Manager.aspx">
+      <publishTime>03/03/2017 13:57:20</publishTime>
+    </File>
+    <File Include="Admin/DeadLine_LoaiKhieuNai4LoaiPhongBan.aspx">
+      <publishTime>03/03/2017 08:45:41</publishTime>
+    </File>
+    <File Include="Admin/Default.aspx">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/DichVuCP_Add.aspx">
+      <publishTime>03/03/2017 08:46:03</publishTime>
+    </File>
+    <File Include="Admin/DichVuCP_Manager.aspx">
+      <publishTime>03/03/2017 15:19:39</publishTime>
+    </File>
+    <File Include="Admin/DoiTac_Manager.aspx">
+      <publishTime>03/03/2017 13:57:51</publishTime>
+    </File>
+    <File Include="Admin/Error.aspx">
+      <publishTime>03/02/2017 21:27:45</publishTime>
+    </File>
+    <File Include="Admin/Groupadmin_Add.aspx">
+      <publishTime>03/05/2017 22:23:49</publishTime>
+    </File>
+    <File Include="Admin/Groupadmin_Manager.aspx">
+      <publishTime>03/05/2017 22:22:14</publishTime>
+    </File>
+    <File Include="Admin/Images/cross_icon_normal.png">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/icons/information.gif">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/PgFirst.gif">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/PgLast.gif">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/PgNext.gif">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/PgPrev.gif">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/Images/titlebar_bg.jpg">
+      <publishTime>02/13/2017 07:39:15</publishTime>
+    </File>
+    <File Include="Admin/KhieuNai_BuocXuLy_Autocomplete_add.aspx">
+      <publishTime>04/21/2017 15:15:09</publishTime>
+    </File>
+    <File Include="Admin/KhieuNai_BuocXuLy_Autocomplete_manager.aspx">
+      <publishTime>03/03/2017 13:58:36</publishTime>
+    </File>
+    <File Include="Admin/Loading.aspx">
+      <publishTime>02/13/2017 07:39:19</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai2PhongBan.aspx">
+      <publishTime>03/03/2017 14:00:06</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai_Add.aspx">
+      <publishTime>03/03/2017 14:55:58</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai_AddExcel.aspx">
+      <publishTime>03/03/2017 13:58:50</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai_Manager.aspx">
+      <publishTime>04/23/2017 21:17:12</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai_VASUpdate_add.aspx">
+      <publishTime>03/03/2017 10:09:52</publishTime>
+    </File>
+    <File Include="Admin/LoaiKhieuNai_VASUpdate_manager.aspx">
+      <publishTime>04/23/2017 21:25:33</publishTime>
+    </File>
+    <File Include="Admin/LoaiPhongBan2PhongBan.aspx">
+      <publishTime>03/03/2017 14:00:52</publishTime>
+    </File>
+    <File Include="Admin/LoaiPhongBan_Add.aspx">
+      <publishTime>03/03/2017 10:16:43</publishTime>
+    </File>
+    <File Include="Admin/LoaiPhongBan_manager.aspx">
+      <publishTime>03/03/2017 15:13:36</publishTime>
+    </File>
+    <File Include="Admin/LoaiPhongBan_ThoiGianXuLyKhieuNai_manager.aspx">
+      <publishTime>03/03/2017 14:00:43</publishTime>
+    </File>
+    <File Include="Admin/LogManager.aspx">
+      <publishTime>03/05/2017 22:27:10</publishTime>
+    </File>
+    <File Include="Admin/LoiKhieuNai_Add.aspx">
+      <publishTime>04/23/2017 21:18:26</publishTime>
+    </File>
+    <File Include="Admin/LoiKhieuNai_Manager.aspx">
+      <publishTime>04/23/2017 21:18:01</publishTime>
+    </File>
+    <File Include="Admin/ManagerCacheInbound.aspx">
+      <publishTime>03/03/2017 10:29:22</publishTime>
+    </File>
+    <File Include="Admin/Menu_Add.aspx">
+      <publishTime>03/05/2017 22:26:45</publishTime>
+    </File>
+    <File Include="Admin/Menu_Manager.aspx">
+      <publishTime>03/05/2017 22:26:14</publishTime>
+    </File>
+    <File Include="Admin/MessengerRight.aspx">
+      <publishTime>03/02/2017 21:29:27</publishTime>
+    </File>
+    <File Include="Admin/NguoiSuDung_Add.aspx">
+      <publishTime>03/03/2017 13:35:02</publishTime>
+    </File>
+    <File Include="Admin/NguoiSuDung_GioiHanGiamTru.aspx">
+      <publishTime>03/03/2017 14:03:31</publishTime>
+    </File>
+    <File Include="Admin/NguoiSuDung_Manager.aspx">
+      <publishTime>04/18/2017 11:18:42</publishTime>
+    </File>
+    <File Include="Admin/NhomNguoiDungAI2User.aspx">
+      <publishTime>03/03/2017 14:05:48</publishTime>
+    </File>
+    <File Include="Admin/NhomNguoiDung_AI_Add.aspx">
+      <publishTime>03/03/2017 11:49:34</publishTime>
+    </File>
+    <File Include="Admin/NhomNguoiDung_AI_Manager.aspx">
+      <publishTime>03/05/2017 22:21:11</publishTime>
+    </File>
+    <File Include="Admin/PermissionDefault.aspx">
+      <publishTime>04/23/2017 21:21:43</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyen.aspx">
+      <publishTime>03/05/2017 22:25:24</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenGroup.aspx">
+      <publishTime>03/05/2017 22:24:52</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenKN2NSD.aspx">
+      <publishTime>04/23/2017 21:22:39</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenLoaiPhongBan.aspx">
+      <publishTime>03/03/2017 14:07:12</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenNhomNguoiDungAI_System.aspx">
+      <publishTime>03/03/2017 14:07:33</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenNhomNguoiDung_AIKhieuNai.aspx">
+      <publishTime>03/03/2017 14:07:21</publishTime>
+    </File>
+    <File Include="Admin/PhanQuyenPhongBan.aspx">
+      <publishTime>04/23/2017 21:22:16</publishTime>
+    </File>
+    <File Include="Admin/PhongBan2PhongBan.aspx">
+      <publishTime>03/03/2017 14:08:47</publishTime>
+    </File>
+    <File Include="Admin/PhongBanVNPT_Cap1_Add.aspx">
+      <publishTime>03/03/2017 11:12:33</publishTime>
+    </File>
+    <File Include="Admin/PhongBanVNPT_Cap2_Add.aspx">
+      <publishTime>04/21/2017 15:12:59</publishTime>
+    </File>
+    <File Include="Admin/PhongBanVNPT_Cap3_Add.aspx">
+      <publishTime>04/21/2017 15:13:17</publishTime>
+    </File>
+    <File Include="Admin/PhongBanVNPT_Manager.aspx">
+      <publishTime>03/03/2017 15:29:21</publishTime>
+    </File>
+    <File Include="Admin/PhongBan_Add.aspx">
+      <publishTime>04/23/2017 21:19:32</publishTime>
+    </File>
+    <File Include="Admin/PhongBan_Manager.aspx">
+      <publishTime>03/03/2017 14:08:12</publishTime>
+    </File>
+    <File Include="Admin/PhongBan_Permission_Add.aspx">
+      <publishTime>03/03/2017 11:07:17</publishTime>
+    </File>
+    <File Include="Admin/PhongBan_User_Add.aspx">
+      <publishTime>03/03/2017 14:08:25</publishTime>
+    </File>
+    <File Include="Admin/PhongBan_User_AddExcel.aspx">
+      <publishTime>04/23/2017 21:20:32</publishTime>
+    </File>
+    <File Include="Admin/Popup/Ajax/HandData.ashx">
+      <publishTime>02/13/2017 07:39:20</publishTime>
+    </File>
+    <File Include="Admin/Popup/DanhSachMenu.aspx">
+      <publishTime>02/13/2017 07:39:20</publishTime>
+    </File>
+    <File Include="Admin/Scripts/DichVuCP.js">
+      <publishTime>02/13/2017 07:39:20</publishTime>
+    </File>
+    <File Include="Admin/Scripts/DichVuCP_Add.js">
+      <publishTime>02/13/2017 07:39:20</publishTime>
+    </File>
+    <File Include="Admin/ServiceUserDoiTac/User_Doitac.asmx">
+      <publishTime>02/13/2017 07:39:20</publishTime>
+    </File>
+    <File Include="Admin/ThongBao_Add.aspx">
+      <publishTime>04/21/2017 15:11:08</publishTime>
+    </File>
+    <File Include="Admin/ThongBao_Manager.aspx">
+      <publishTime>03/03/2017 15:24:27</publishTime>
+    </File>
+    <File Include="Admin/Tinh_Add.aspx">
+      <publishTime>04/21/2017 15:05:09</publishTime>
+    </File>
+    <File Include="Admin/Tinh_Manager.aspx">
+      <publishTime>03/03/2017 15:04:50</publishTime>
+    </File>
+    <File Include="AdminNotAJAX.Master">
+      <publishTime>02/13/2017 07:39:27</publishTime>
+    </File>
+    <File Include="App_Browsers/PageStateAdapter.browser">
+      <publishTime>02/13/2017 07:39:29</publishTime>
+    </File>
+    <File Include="App_Browsers/PageStateAdapter.rar">
+      <publishTime>02/13/2017 07:39:29</publishTime>
+    </File>
+    <File Include="BaoCao/BaoCaoDichVuGTGTChoTapDoan.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="BaoCao/BaoCaoKPIGTGT_TheoDonViQuanLy.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="BaoCao/BaoCaoTongHopPAKN.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="BaoCao/BaoCaoTongHopVNPTNET.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="BaoCao/PopupDetail.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="BaoCao/Template/SLTonDongKyTruoc.xml">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Admin.dll">
+      <publishTime>02/20/2017 10:21:16</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Control.dll">
+      <publishTime>02/20/2017 10:21:13</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Core.dll">
+      <publishTime>02/20/2017 10:21:14</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.GQKN.Entity.dll">
+      <publishTime>02/20/2017 10:21:16</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.GQKN.Impl.dll">
+      <publishTime>02/20/2017 10:21:21</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Sercurity.dll">
+      <publishTime>02/20/2017 10:21:13</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Website.dll">
+      <publishTime>02/21/2017 10:10:23</publishTime>
+    </File>
+    <File Include="bin/AIVietNam.Website.XmlSerializers.dll">
+      <publishTime>02/21/2017 10:10:25</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/13/2017 07:56:53</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/AspNetPager.dll">
+      <publishTime>02/13/2017 07:56:53</publishTime>
+    </File>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>02/13/2017 07:56:53</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>02/13/2017 07:56:55</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:08</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:21</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:26</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:41</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:49:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:31</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:49</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxRichEdit.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxRichEdit.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraEditors.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraEditors.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v17.1.Presets.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraLayout.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:39</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraLayout.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:45</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:49:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v16.2.dll">
+      <publishTime>05/03/2017 20:49:08</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v17.1.dll">
+      <publishTime>07/11/2017 08:48:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v17.1.Export.dll">
+      <publishTime>07/11/2017 08:49:01</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v16.2.dll">
+      <publishTime>05/03/2017 20:49:31</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v17.1.dll">
+      <publishTime>07/11/2017 08:48:49</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxGauges.v16.2.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxGauges.v17.1.dll">
+      <publishTime>07/11/2017 08:48:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v16.2.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v17.1.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxRichEdit.v16.2.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxRichEdit.v17.1.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v16.2.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v17.1.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v16.2.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v17.1.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v16.2.dll">
+      <publishTime>05/03/2017 20:49:03</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v17.1.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Bootstrap.v17.1.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v16.2.dll">
+      <publishTime>05/03/2017 20:49:33</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v17.1.dll">
+      <publishTime>07/11/2017 08:48:51</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v16.2.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v17.1.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v16.2.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v16.2.Web.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v17.1.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v17.1.Web.dll">
+      <publishTime>07/11/2017 08:48:13</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v16.2.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v17.1.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.2.Core.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v16.2.Presets.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v17.1.Core.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v17.1.Presets.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v16.2.dll">
+      <publishTime>05/03/2017 20:49:39</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v17.1.dll">
+      <publishTime>07/11/2017 08:48:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v16.2.dll">
+      <publishTime>05/03/2017 20:49:45</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v17.1.dll">
+      <publishTime>07/11/2017 08:49:05</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:08</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:41</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:49:01</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:31</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:49</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxRichEdit.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxRichEdit.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:03</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraEditors.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraEditors.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v17.1.Presets.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraLayout.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:39</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraLayout.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:58</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:45</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:49:05</publishTime>
+    </File>
+    <File Include="bin/FastExcel.dll">
+      <publishTime>06/08/2017 21:06:08</publishTime>
+    </File>
+    <File Include="bin/FastMember.dll">
+      <publishTime>08/26/2016 15:59:54</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Highlighter.Net.dll">
+      <publishTime>02/13/2017 07:56:55</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>04/12/2014 17:28:32</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.dll">
+      <publishTime>02/13/2017 07:59:03</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:08</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:41</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:49:01</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:32</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:49</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxRichEdit.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxRichEdit.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:03</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraEditors.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraEditors.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v17.1.Presets.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraLayout.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:39</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraLayout.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:58</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:45</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:49:05</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/02/2017 17:46:32</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>04/12/2014 17:28:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OOXML.dll">
+      <publishTime>04/12/2014 17:28:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXml4Net.dll">
+      <publishTime>04/12/2014 17:28:32</publishTime>
+    </File>
+    <File Include="bin/NPOI.OpenXmlFormats.dll">
+      <publishTime>04/12/2014 17:28:32</publishTime>
+    </File>
+    <File Include="bin/OptionDropDownList.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:09</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:46</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:27</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:41</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:49:01</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:48</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:32</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:49</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxRichEdit.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxRichEdit.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:03</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:16</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:15</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:36</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:55</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraEditors.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraEditors.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v16.2.Core.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v16.2.Presets.resources.dll">
+      <publishTime>05/03/2017 20:49:38</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v17.1.Core.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v17.1.Presets.resources.dll">
+      <publishTime>07/11/2017 08:48:56</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraLayout.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:39</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraLayout.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:48:58</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraTreeList.v16.2.resources.dll">
+      <publishTime>05/03/2017 20:49:45</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraTreeList.v17.1.resources.dll">
+      <publishTime>07/11/2017 08:49:05</publishTime>
+    </File>
+    <File Include="bin/SimilarityNet.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/SimpleExcelImport.dll">
+      <publishTime>02/25/2015 21:25:24</publishTime>
+    </File>
+    <File Include="bin/SimpleExcelImport.pdb">
+      <publishTime>02/25/2015 21:25:24</publishTime>
+    </File>
+    <File Include="bin/SolrNet.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/SolrNet.pdb">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Spider.HtmlFramework.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/SSO.Client.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>02/13/2017 07:56:56</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Admin.dll">
+      <publishTime>08/30/2017 09:35:27</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Admin.pdb">
+      <publishTime>08/30/2017 09:35:27</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Control.dll">
+      <publishTime>08/30/2017 09:35:23</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Control.pdb">
+      <publishTime>08/30/2017 09:35:23</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Core.dll">
+      <publishTime>08/30/2017 09:35:23</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Core.pdb">
+      <publishTime>08/30/2017 09:35:23</publishTime>
+    </File>
+    <File Include="bin/VnptNet.HTKTTT.Entity.dll">
+      <publishTime>08/30/2017 09:35:27</publishTime>
+    </File>
+    <File Include="bin/VnptNet.HTKTTT.Entity.pdb">
+      <publishTime>08/30/2017 09:35:27</publishTime>
+    </File>
+    <File Include="bin/VnptNet.HTKTTT.Impl.dll">
+      <publishTime>08/30/2017 09:35:32</publishTime>
+    </File>
+    <File Include="bin/VnptNet.HTKTTT.Impl.pdb">
+      <publishTime>08/30/2017 09:35:32</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Sercurity.dll">
+      <publishTime>08/30/2017 09:35:22</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Sercurity.pdb">
+      <publishTime>08/30/2017 09:35:22</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Website.dll">
+      <publishTime>08/31/2017 09:55:59</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Website.pdb">
+      <publishTime>08/31/2017 09:55:59</publishTime>
+    </File>
+    <File Include="bin/VnptNet.Website.XmlSerializers.dll">
+      <publishTime>08/31/2017 09:56:02</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>02/13/2017 07:56:57</publishTime>
+    </File>
+    <File Include="ChangePass.aspx">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>03/02/2017 15:20:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>03/02/2017 15:20:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>03/02/2017 15:20:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>03/02/2017 15:20:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/02/2017 15:20:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/02/2017 15:20:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="Content/Chosen/chosen-sprite.png">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="Content/Chosen/chosen.css">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="Content/Chosen/chosen.jquery.js">
+      <publishTime>02/13/2017 07:39:30</publishTime>
+    </File>
+    <File Include="Content/easyui.css">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/easyui/jquery.easyui.min.js">
+      <publishTime>02/13/2017 07:40:05</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="Content/images/accordion_collapse.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/accordion_expand.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/arrow_grey_right.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/arrow_grey_right_down.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/back.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/bg_grey.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/bg_sidebar.jpg">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/blank.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/button_a_bg.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/button_plain_hover.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/button_span_bg.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/calendar_nextmonth.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/calendar_nextyear.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/calendar_prevmonth.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/calendar_prevyear.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/cancel.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/checkers.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/checkers_x.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/combo_arrow.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/cut.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_header_bg.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_row_collapse.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_row_expand.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_sort_asc.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_sort_desc.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_title_bg.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datagrid_title_bg.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/datebox_arrow.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/edit_add.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/edit_remove.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/filesave.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/help.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/img_dangnhap.jpg">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/img_dangnhap.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/layout_button_down.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/layout_button_left.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/layout_button_right.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/layout_button_up.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/logo.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu-hover.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu_downarrow.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu_rightarrow.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu_sep.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/menu_split_downarrow.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/messager_error.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/messager_info.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/messager_question.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/messager_warning.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/mini_add.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/mini_edit.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/mini_refresh.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/no.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/ok.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_first.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_last.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_load.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_loading.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_next.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pagination_prev.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_loading.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_title.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_title.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_tools.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_tool_collapse.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/panel_tool_expand.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/pencil.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/print.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/redo.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/reload.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/search.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/searchbox_button.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/slider_handle.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/spinner_arrow_down.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/spinner_arrow_up.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/style.css">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/sum.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/tabs_active.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/tabs_close.gif">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/tabs_enabled.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tabs_enabled.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tabs_leftarrow.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tabs_rightarrow.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tip.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/Trang-Dang Nhap copy.png">
+      <publishTime>02/13/2017 07:40:06</publishTime>
+    </File>
+    <File Include="Content/images/tree_arrows.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_checkbox_0.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_checkbox_1.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_checkbox_2.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_dnd_no.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_dnd_yes.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_elbow.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_file.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_folder.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_folder_open.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/tree_loading.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_217bc0_256x240.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_454545_256x240 %281%29.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_454545_256x240.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_6da8d5_256x240.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_888888_256x240.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/ui-icons_f9bd01_256x240.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/undo.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/validatebox_pointer.gif">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/images/validatebox_warning.png">
+      <publishTime>02/13/2017 07:40:07</publishTime>
+    </File>
+    <File Include="Content/jquery-ui.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/miniTip/jquery.miniTip.min.js">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/miniTip/miniTip.min.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/themes/asc.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/themes/bg.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/themes/desc.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Content/themes/style.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/atooltip.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/autocomplete.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/BaoCao.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/bootstrap.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/css.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/darkBlue_GRAD.jpg">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/ddsmoothmenu-v.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/ddsmoothmenu.css">
+      <publishTime>06/22/2017 21:37:36</publishTime>
+    </File>
+    <File Include="Css/deselectedTab_1x1.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/DynamicStyle.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/flexigrid.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/flexigrid.less">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/flexigrid.pack.css">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/gradient_onBlue.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/gradient_onWhite.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/headerGRADIENT_Tall.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/HTHTKT.css">
+      <publishTime>08/10/2017 08:20:41</publishTime>
+    </File>
+    <File Include="Css/images/bg.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/images/btn-sprite.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/images/ddn.png">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/images/dn.png">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/images/fhbg.gif">
+      <publishTime>02/13/2017 07:40:09</publishTime>
+    </File>
+    <File Include="Css/images/first.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/hl.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/info.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/last.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/line.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/load.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/load.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/magnifier.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/next.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/prev.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/rmfilter.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/search.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/up.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/uup.png">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/wbg.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/images/white-down.gif">
+      <publishTime>06/22/2017 22:40:55</publishTime>
+    </File>
+    <File Include="Css/images/white-left.gif">
+      <publishTime>06/22/2017 22:42:32</publishTime>
+    </File>
+    <File Include="Css/images/white-right.gif">
+      <publishTime>06/22/2017 22:41:59</publishTime>
+    </File>
+    <File Include="Css/jquery.datepick.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/layout.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/max_blue.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/max_blue_highlight.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/min_blue.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/min_blue_highlight.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/pager.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/pagination.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/print.js">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/report_header.jpg">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/reset.css">
+      <publishTime>03/02/2017 21:44:56</publishTime>
+    </File>
+    <File Include="Css/selectedTab_1x1.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/selectedTab_leftCorner.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/selectedTab_rightCorner.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/style.css">
+      <publishTime>07/03/2017 00:15:46</publishTime>
+    </File>
+    <File Include="Css/style.cus.css">
+      <publishTime>02/27/2017 07:22:32</publishTime>
+    </File>
+    <File Include="Css/style.report.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/stylePage.css">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/topGradRepeat.jpg">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/unSelectedTab_leftCorner.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/unSelectedTab_rightCorner.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/x_blue.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Css/x_blue_highlight.gif">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/27/2017 23:07:55</publishTime>
+    </File>
+    <File Include="DefaultOLD.aspx">
+      <publishTime>02/20/2017 13:22:07</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="Error.html">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="ExecuteSQL.aspx">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="exit.aspx">
+      <publishTime>07/07/2017 15:15:42</publishTime>
+    </File>
+    <File Include="ExportExcel/Default.aspx">
+      <publishTime>02/13/2017 07:40:10</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/CacBuocXuLy.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/DanhSachKhieuNaiChiTiet.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/DanhSachKhieuNai_BaoCaoDichVuGTGTChoTapDoan.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/DanhSachKhieuNai_QuaHan.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/DanhSachKhieuNai_TruyVanNangCao.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="ExportExcel/Template/DanhSachKhieuNai_TruyVanNangCao_2.xlsx">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>04/19/2017 14:40:23</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="HeThongHoTro/CacYeuCauHoTroCuaToi.aspx">
+      <publishTime>08/01/2017 09:37:12</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Css/images/white-down.gif">
+      <publishTime>06/22/2017 22:40:55</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Css/images/white-left.gif">
+      <publishTime>06/22/2017 22:42:32</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Css/images/white-right.gif">
+      <publishTime>06/22/2017 22:41:59</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Dashboards/DanhSachHoTroXuLyHT.ascx">
+      <publishTime>08/31/2017 09:53:12</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Dashboards/DanhSachYeuCauHT.ascx">
+      <publishTime>07/14/2017 10:56:57</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Error.aspx">
+      <publishTime>07/05/2017 14:03:22</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmCayThuMucYeuCau.aspx">
+      <publishTime>08/31/2017 10:28:14</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmDauMoiXL.aspx">
+      <publishTime>07/31/2017 00:41:19</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmHeThongYCHotro.aspx">
+      <publishTime>07/31/2017 00:39:58</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmLuongXuLy.aspx">
+      <publishTime>07/27/2017 22:30:05</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmNodeLuongXuLy.aspx">
+      <publishTime>07/11/2017 09:39:19</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmQuyenHeThong.aspx">
+      <publishTime>07/11/2017 09:31:51</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_DmYeuCauHoTro.aspx">
+      <publishTime>04/23/2017 22:16:13</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_HtNguoiDungTuExcel.aspx">
+      <publishTime>07/11/2017 09:31:51</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx">
+      <publishTime>07/11/2017 09:31:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_HtQuanLyMenu.aspx">
+      <publishTime>07/11/2017 09:31:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_HtQuanLyMucDoSuCo.aspx">
+      <publishTime>07/11/2017 09:31:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_HtQuanLyNguoiDung.aspx">
+      <publishTime>07/11/2017 09:31:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_nhatKyTacDong.aspx">
+      <publishTime>08/01/2017 00:12:26</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_ThietLapQuyenNguoiDung.aspx">
+      <publishTime>07/11/2017 09:31:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_ThietLapQuyenNhom.aspx">
+      <publishTime>07/11/2017 09:31:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_TraCuuThongTinYCHT.aspx">
+      <publishTime>08/22/2017 08:23:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Manager/mn_TuDien_ThoiGianXL.aspx">
+      <publishTime>07/28/2017 22:47:21</publishTime>
+    </File>
+    <File Include="HeThongHoTro/QuanLyCayThuMucHT.aspx">
+      <publishTime>02/27/2017 07:22:31</publishTime>
+    </File>
+    <File Include="HeThongHoTro/QuanLyDMHeThong.aspx">
+      <publishTime>02/27/2017 07:22:31</publishTime>
+    </File>
+    <File Include="HeThongHoTro/QuanLyLuongHT.aspx">
+      <publishTime>02/27/2017 07:22:31</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_BaoCaoTongHopSoLieu_YCHT_TheoPhongBan.aspx">
+      <publishTime>07/11/2017 09:31:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_ChiTietCaNhan.aspx">
+      <publishTime>07/31/2017 21:22:52</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_ChiTietTheoHeThong.aspx">
+      <publishTime>07/18/2017 07:47:05</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_ChiTietTheoNguoiDung.aspx">
+      <publishTime>07/18/2017 07:47:18</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_ChiTietTheoPhongBan.aspx">
+      <publishTime>07/18/2017 07:46:45</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_ChiTietTheoTrangThai.aspx">
+      <publishTime>08/01/2017 08:11:09</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_DanhMucBaoCao.aspx">
+      <publishTime>07/18/2017 10:26:37</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/bc_TongHopSoLieuTheoHeThong.aspx">
+      <publishTime>07/11/2017 09:31:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/bc_TongHopSoLieuTheoNguoiDung.aspx">
+      <publishTime>07/11/2017 09:31:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/bc_TongHopSoLieuTheoThoiGianNhap.aspx">
+      <publishTime>07/11/2017 09:31:53</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Report/BC_TongHopSoLieu_YCHT_TheoNguoiDung.aspx">
+      <publishTime>07/11/2017 09:31:54</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_baoCao.asmx">
+      <publishTime>04/18/2017 14:04:03</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_quanLy.asmx">
+      <publishTime>04/27/2017 23:23:08</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_tapTinDinhKem.asmx">
+      <publishTime>05/17/2017 15:18:59</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_thamSo.asmx">
+      <publishTime>05/28/2017 19:55:56</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_thongTinHoTro.asmx">
+      <publishTime>02/27/2017 07:22:30</publishTime>
+    </File>
+    <File Include="HeThongHoTro/Services/ws_xemThongTin.asmx">
+      <publishTime>05/09/2017 21:54:51</publishTime>
+    </File>
+    <File Include="HeThongHoTro/TaoMoiYeuCauHoTro.aspx">
+      <publishTime>07/28/2017 21:14:40</publishTime>
+    </File>
+    <File Include="HeThongHoTro/WebForm1.aspx">
+      <publishTime>07/11/2017 09:31:49</publishTime>
+    </File>
+    <File Include="HeThongHoTro/WebForm2.aspx">
+      <publishTime>02/17/2017 15:20:08</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492177966_ok_16x16.gif">
+      <publishTime>04/14/2017 15:53:31</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178015_lock_16x16.gif">
+      <publishTime>04/14/2017 15:53:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178027_delete_16x16.gif">
+      <publishTime>04/14/2017 15:54:01</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178060_settings1_16x16.gif">
+      <publishTime>04/14/2017 15:54:35</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178075_add_16x16.gif">
+      <publishTime>04/14/2017 15:54:48</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178089_undo1_16x16.gif">
+      <publishTime>04/14/2017 15:55:03</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/1492178118_redo1_16x16.gif">
+      <publishTime>04/14/2017 15:55:32</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/access-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/access-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/access-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/access_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/add_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator2_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator3-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator3-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/administrator3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anchor-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anchor-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anchor-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anchor_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anonymous-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anonymous-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anonymous-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/anonymous_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/application-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/application-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/application_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/attention1_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/attention2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/attention3_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/backup_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/bold_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/business-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/business-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/business-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/business_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/calculate_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/check-in_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/check-out_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/color1_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/color2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/color3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment2_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment3-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment3-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/comment3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/computer2_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/connect1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/connect2_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/connect3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/connect3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/contact-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/contact-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/contact-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/contact_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/copy_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/cut_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data-play-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-field-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-field-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-field-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-form-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-form-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-form-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-table-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-table-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database-table-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_export_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_field_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_form_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_import_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/database_table_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/data_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/date_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/delete_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/disconnect1_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/disconnect2_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/down_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/edit_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/eject_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/error_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/fast_forward_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file-manager-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file-manager-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/file_manager_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/filter-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/filter-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/filter-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/filter_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/finances-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/finances-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/finances-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/finances_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/first_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag2_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag3-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag3-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag3_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag4-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag4-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag4-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/flag4_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/folder-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/folder-close-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/folder-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/folder_closed_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/folder_open_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/format1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/fromat2_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/graph1_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/graph2_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/help_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/home_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/image-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/image-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/image-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/image_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/information_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/italic_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/label-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/label-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/label-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/label_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/last_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/law-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/law-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/law-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/law_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/left_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/level_down_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/level_up_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/link-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/link-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/link-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/link_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/lock_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/mail2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/measurement1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/measurement2_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/move_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/music-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/music-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/music-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/music-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/music_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/New Text Document.txt">
+      <publishTime>04/14/2017 15:54:12</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/notepad-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/notepad-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/notepad-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/notepad_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/ok_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/ordered_list_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/paste_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/pause_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/pay-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/pay-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/pay-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/pay_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/photo-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/photo-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/photo-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/photo_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/play_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/preview_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/print_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/progress.gif">
+      <publishTime>07/04/2017 07:48:15</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/record-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/record-copy-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/record-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/record-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/record_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/redo1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/redo2_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/refresh_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration1_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/registration2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/relationships_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report1_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report3-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/report3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/research_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/restore_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/reverse_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/right_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/save_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/script_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/search_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/search_again_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/security-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/security-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/security-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/security_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/select_all_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/server2_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/servers_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/settings1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/settings2_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/shopping-cart-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/shopping-cart-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/shopping-cart-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/shopping_cart_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sitemap_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/skip_backward_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/skip_forward_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sort_by_date_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sort_by_name_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sort_by_quantity_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sound-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sound-play-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sound-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/sound_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/stop_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/strike_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support1_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/support2_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_align_columns_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_align_rows_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_auto_format_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_borders_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_cell_alignment_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_merge_cells_16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/table_split_cells_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_align_center_16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_align_left_16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_align_right_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_indent_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_justify_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/text_outdent_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/tile_windows_horizontally_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/tile_windows_vertically_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/time_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/trash-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/trash-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/trash-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/trash_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/turn-off_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/turn-on_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/underline_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/undo1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/undo2_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/unlock_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/unordered_list_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/up_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user1-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user1-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user1-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user1_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user2-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user2-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user2-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user2_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user3-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user3-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user3-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user3_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user4-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user4-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user4-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user4_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user5-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user5-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user5-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user5_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user6-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user6-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user6-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user6_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user7-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user7-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user7-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:49</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user7_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user8-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user8-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user8-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user8_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user9-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user9-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user9-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/user9_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video-play-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/video_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/view_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/wait_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server-add-16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server-delete-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server-edit-16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server-start-16x16.gif">
+      <publishTime>04/14/2017 15:57:54</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server-stop-16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web-server_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/web_16x16.gif">
+      <publishTime>04/14/2017 15:57:53</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/wizard_16x16.gif">
+      <publishTime>04/14/2017 15:57:52</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/zoom_16x16.gif">
+      <publishTime>04/14/2017 15:57:50</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/zoom_in_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/icons/zoom_out_16x16.gif">
+      <publishTime>04/14/2017 15:57:51</publishTime>
+    </File>
+    <File Include="HTHTKT/MapSQL.txt">
+      <publishTime>07/01/2017 20:13:11</publishTime>
+    </File>
+    <File Include="HTHTKT/Notify/AccountLock.aspx">
+      <publishTime>07/17/2017 15:39:49</publishTime>
+    </File>
+    <File Include="HTHTKT/Notify/AccountNotExist.aspx">
+      <publishTime>07/17/2017 15:39:21</publishTime>
+    </File>
+    <File Include="HTHTKT/Notify/ErrorSystem.aspx">
+      <publishTime>07/17/2017 15:39:31</publishTime>
+    </File>
+    <File Include="HTHTKT/Notify/NotRight.aspx">
+      <publishTime>07/17/2017 15:39:38</publishTime>
+    </File>
+    <File Include="HTHTKT/Notify/NotValidPass.aspx">
+      <publishTime>07/17/2017 15:42:03</publishTime>
+    </File>
+    <File Include="HTHTKT/sql/TextFile1.txt">
+      <publishTime>07/06/2017 22:20:48</publishTime>
+    </File>
+    <File Include="HTHTKT/UploadFiles/file_template_import_user.xlsx">
+      <publishTime>07/09/2017 22:31:13</publishTime>
+    </File>
+    <File Include="Images/17_Question-16.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/1x1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/1x1.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/addnew.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/arrow.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/arrow_hover.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/back.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg-footer.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg-newLasted.htm">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg-newLasted.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg-titNews.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_banner.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_bottom.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_boxDB.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_boxinfo.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_btn.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_btn_nav_tab.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_datetime.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_footer.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_foot_nav_btn.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_input.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_left.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_menu.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_midboxDB.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_nav_btn.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_nav_tab.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_right.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_select.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_textbox.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_th.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_th_tbl.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bg_top.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/blank.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bn1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bottom1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bottom2.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bottom3.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bottom_left.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/bottom_right.GIF">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/btn_detail.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/btn_search.jpg">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/button.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/button.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/button_bg.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/calendar/close.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/drop1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/drop2.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/left1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/left2.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/right1.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/right2.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/calendar/Thumbs.db">
+      <publishTime>02/07/2017 10:39:08</publishTime>
+    </File>
+    <File Include="Images/calendar/vssver2.scc">
+      <publishTime>02/07/2017 10:39:08</publishTime>
+    </File>
+    <File Include="Images/cancel.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/canhtren.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/clear.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/close.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/collapse.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/cross_icon_normal.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/delete.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/delete_icon.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/dot.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/down.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/edit.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/excel.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/expand.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/folder.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/formSELECT.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/goc.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/goc1.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/goc2.GIF">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/goc3.GIF">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/huy.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon-arr1.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon-arr3.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon1.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon2.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon3.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon4.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon5.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon6.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon8.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconboxlogin.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconDown.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconExcel.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconhome.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconLogout.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconPdf.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/application_form_add.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/apply.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/del_file.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/down.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/edit.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/History.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/import.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/information.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/lock.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/menu_indicator_for_light_backgrounds.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/minus2.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/move_file.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/move_nganghang.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/move_phanhoi.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/Next.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/nhapdl.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/notapply.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/plus2.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/search.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/SelectDropdown.PNG">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/sync-16.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/tools_12.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/tools_20.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/unlock.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/viewinfo.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/view_detail.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icons/xuatexcel.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconUser.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconVies.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/iconWord.png">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon1.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon10.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon11.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon12.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon13.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon14.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon15.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon16.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon17.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon18.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon19.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon2.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon3.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon4.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon5.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon6.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon7.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon8.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_dashboard/icon9.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_edit.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_info.gif">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_lock.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/icon_open.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/images/bg-newLasted.jpg">
+      <publishTime>02/13/2017 07:40:12</publishTime>
+    </File>
+    <File Include="Images/indicator.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/khoa.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/left.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/linear3.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/loader.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/loading9.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/login_07.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/login_09.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/login_10.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/login_11.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/login_12.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/logo.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/logo2.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/logo2_.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/logoAI.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/logo_footer.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/menu_duoi.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/mid_boxDB.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/minus.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_back_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_delete_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_detail_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_edit_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_excel_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_import_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_im_data_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_info_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_lock_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_new_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_save_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_search_btn.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/nav_unlock_btn.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/new.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/noimage.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/pagingBackground.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/PgFirst.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/PgLast.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/PgNext.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/PgPrev.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/plus.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/print.ico">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/print.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/qhgd.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/right.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/right.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/save.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/save.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/shadow.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/showCalander.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/SpellCheck.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/Stage_BG_btm.png">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/TAB01.gif">
+      <publishTime>02/13/2017 07:40:11</publishTime>
+    </File>
+    <File Include="Images/tab_left.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/tab_left_active.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/tab_right.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/tab_right_active.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/Thumbs.db">
+      <publishTime>02/07/2017 10:39:08</publishTime>
+    </File>
+    <File Include="Images/titlebar_bg.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/titleboxinfo.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/titleboxinfo_h4.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top1.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top11.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top12.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top13.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top2.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top3.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/topleft_boxDB.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/topright_boxDB.jpg">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/topright_boxDB.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top_left.GIF">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/top_right.GIF">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/transparent.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/tron1.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/user.gif">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/user.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Images/x.png">
+      <publishTime>02/13/2017 07:40:13</publishTime>
+    </File>
+    <File Include="Js/ddsmoothmenu.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/easySlider1.5.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/en.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/flexigrid.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/flexigrid.pack.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/highcharts.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/highcharts.src.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery-1.7.2.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery-1.8.3.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery-ui.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery-ui.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.ajax_upload.0.6.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.atooltip.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.autocomplete.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.bgiframe.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.cookie.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.dcjqaccordion.2.7.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.easyui.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jQuery.jCache.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.MultiFile.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.MultiFile.pack.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.number.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.pagination.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.PrintArea.js_4.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.textcomplete.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.treeview.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery.validate.pack.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jquery1.8.3.min.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/jscal2.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/menu.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/menu_expand.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/plugin/ajaxfileupload.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/plugin/coin-slider.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Js/plugin/date.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/jquery.datepick-vi.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/jquery.datepick.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/jquery.swfupload.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/jquery.validate.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/printArea.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/swfupload.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/swfupload.queue.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/plugin/swfupload.swf">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/siteScript.js">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Js/Utility.js">
+      <publishTime>02/13/2017 07:40:16</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="LoginAI.aspx">
+      <publishTime>08/01/2017 23:20:43</publishTime>
+    </File>
+    <File Include="Logout.aspx">
+      <publishTime>02/13/2017 07:40:17</publishTime>
+    </File>
+    <File Include="Master_Default.master">
+      <publishTime>08/01/2017 23:20:51</publishTime>
+    </File>
+    <File Include="otp.aspx">
+      <publishTime>11/18/2016 08:25:22</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/06/2017 22:38:40</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/02/2017 15:20:57</publishTime>
+    </File>
+    <File Include="Scripts/FileSaver.min.js">
+      <publishTime>04/05/2017 05:40:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>03/02/2017 15:20:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>03/02/2017 15:20:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>03/02/2017 15:20:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery.floatThead.min.js">
+      <publishTime>02/20/2017 14:42:48</publishTime>
+    </File>
+    <File Include="Scripts/tableExport.js">
+      <publishTime>04/19/2017 22:54:10</publishTime>
+    </File>
+    <File Include="Scripts/xlsx.core.min.js">
+      <publishTime>04/05/2017 05:40:18</publishTime>
+    </File>
+    <File Include="Service/Inbound/WSGqkn.asmx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Service/ServiceLocal.asmx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="UpdateSystem.aspx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Views/Ajax/Ajax.ashx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Views/Ajax/HandlerUpload.ashx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Ajax/BaoCao.ashx">
+      <publishTime>02/13/2017 07:40:18</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Baocao.js">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCao.Master">
+      <publishTime>02/13/2017 07:40:22</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Baocao2.js">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCaoThongKe.aspx">
+      <publishTime>02/13/2017 07:40:22</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCaoThongKeDKT.aspx">
+      <publishTime>02/13/2017 07:40:22</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCaoThongKeNguoiDung.aspx">
+      <publishTime>02/13/2017 07:40:23</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCaoThongKeTTPTDV.aspx">
+      <publishTime>02/13/2017 07:40:23</publishTime>
+    </File>
+    <File Include="Views/BaoCao/BaoCaoThongKeTTTC.aspx">
+      <publishTime>02/13/2017 07:40:23</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaobieudosoluongkhieunaitiepnhan.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaobieudososanhsoluonggiaiquyetkhieunai.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaobieudososanhtongsotiengiamtru.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochatluongphucvu.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietgiamtru.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietgiamtrutrasau.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietpakndatiepnhanttptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietpakntheonguoidungtttc.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietpost.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaochitietpps.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaodoisoatcskhptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaodvgtgtchotapdoan.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaogiamtrudokhieunaidichvuvnpttt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaogiamtru_dv_gtgt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaokhoiluongcongviecdkt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaophoihopgqkntttc.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosolieupakndaxulynguoidung.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosolieupakndaxulyttptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosolieupakntoanmangptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosoluongchuyenxulyvnp.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosoluongkhieunaiquahanvatondongcuaktvcuatttoktv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosoluongkhieunaitondongvaquahancuadoitac.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosoluongknphanhoivektvcuatttoktv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaosoluongkntiepnhanvaxulyvnpttt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotheoloaikhieunai.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaothongketheonguyennhanloi.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotinhhinhkhieunaidichvuvnpttt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotogqkn.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopchatluongmang.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopchitiettheochitieuthoigiangiaiquyet.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopdoitac.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopgiamtru.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopgiamtrutheocpvnp.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopgqkntheothang.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopgqknvnpttt.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopkhieunaitoanmang.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopkhieunaitoanmangtheotuanthang.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoppakntheonguoidungptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoppakntheonguoidungtttc.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/BaoCaoTongHopPAKNTheoNguoiDungVNPTTT.aspx">
+      <publishTime>02/13/2017 07:40:23</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoppakntheophongbantttc.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoppakntttc.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopphongban.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopphongcskhvnp.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopsolieupakndangtondongttptdv.aspx">
+      <publishTime>02/13/2017 07:40:24</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopsolieupakndatiepnhanttptdv.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoptheokhieunai.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoptheokhieunai_gqkn.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghoptheotieuchithoigiangiaiquyet.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/baocaotonghopvnptnet.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/DanhSachKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/emptypage.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/emptypagevnpttt.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/Popup/lichsukhieunai.aspx">
+      <publishTime>02/13/2017 07:40:26</publishTime>
+    </File>
+    <File Include="Views/BaoCao/printCore.js">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucBaoCaoToTruongToKTV.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucDKTGiamTruCuocDVTraSau.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType1.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType15_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType16_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType1_TTTC.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType1_VAS.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType1_VNPTNET.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType1_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType2.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType2_TTTC.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType2_VAS.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType2_VNPTNET.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType2_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType31_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType32_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType3_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType3_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType4_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType5_VNPTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType6_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType7_VNPTTT.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType_2DateRange.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType_DateRange.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/ucReportType_DateRange_New.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType10_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType11_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType12_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType13_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType14_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType15_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType16_VNP.ascx">
+      <publishTime>02/13/2017 07:40:28</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType4_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType5_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType6_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType7_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType8_GQKN_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/UC/uc_ReportType9_VNP.ascx">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/BaoCao/XMLFiles/DKT_ToXLNV/defaultConfigNguoiDungToXLNV.xml">
+      <publishTime>02/13/2017 07:40:29</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/Download.aspx">
+      <publishTime>02/13/2017 07:40:30</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/Handler/KhieuNai.ashx">
+      <publishTime>02/13/2017 07:40:30</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/Js/XuLyKhieuNai.js">
+      <publishTime>02/13/2017 07:40:30</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/PhieuChuyenTiep.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/PhieuKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/PhieuTiepNhan.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/PhieuTraLoi.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/PhieuXacMinh.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/printCore.js">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/SuaKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucCacBuocXuLy.ascx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucChiTietKhieuNai.ascx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucFileDinhKem.ascx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucFileDinhKem_Thieu.ascx">
+      <publishTime>02/13/2017 07:40:32</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucKetQuaGiaiQuyetKN.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucKieuNaiCuocDichVu.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucLuuVetThayDoi.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucQuaTrinhKhieuNai.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/UC/ucTimKiemGiaiPhap.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/ChiTietKhieuNai/XuLyKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/Dashboards/ActivityPhongBan.ascx">
+      <publishTime>02/13/2017 07:40:33</publishTime>
+    </File>
+    <File Include="Views/Dashboards/BieuDoKNCuaPhongBanTheoThoiGian.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Handler/Handler.ashx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/KNCanhBao.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/KNCanhBao2.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/KNChoXuLy.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/LichSuTruyVan.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Scripts/Constants.js">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/Scripts/ThongBao.js">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Dashboards/ThongBao.ascx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Default.aspx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/ExportExcel/Template/Temp1.xlsx">
+      <publishTime>02/13/2017 07:40:34</publishTime>
+    </File>
+    <File Include="Views/Global/Login.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/HanhDongXuLy/Ajax/HanhDongXuLy_Ajax.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/HanhDongXuLy/HanhDongXuLy.aspx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/Popup/Ajax/Handler.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/Popup/DanhSachDoiTac.aspx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/Popup/LoaiKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Excel.aspx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/Autocom.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/ExportExcel.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/ExportExcelChiTietKN.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/Handler.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerCountKNChoXuLy.ashx">
+      <publishTime>02/13/2017 07:40:35</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerCountMyKhieuNai.ashx">
+      <publishTime>02/13/2017 07:40:36</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerCountTotalTab.ashx">
+      <publishTime>02/13/2017 07:40:36</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerKNChoXuLy.ashx">
+      <publishTime>02/13/2017 07:40:36</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerKNGuiDi.ashx">
+      <publishTime>02/13/2017 07:40:36</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerThemMoi.ashx">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/HandlerTruyVan.ashx">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/LSPhanViec.ashx">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Handler/Permission.ashx">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Js/jsKNChoXuLy.js">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Js/jsKNCuaToi.js">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/Js/jsTruyVan.js">
+      <publishTime>02/13/2017 07:40:37</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/KhieuNai_ThemMoi.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/KhieuNai_ThemMoi_Old.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/LoadControls.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/MyKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/QuanLyKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/SoTheoDoi.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/TruyVan.aspx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/BieuDoKNChoXuLy.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ChiTietKN.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNBoPhanKhacChuyenVe.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNCanDong.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNChoXuLy.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNChuyenBoPhanKhac.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNDaGuiDi.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNDaPhanHoi.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNHangLoat.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNLichSuPhanViec.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNPhanHoi.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNPhanViec.ascx">
+      <publishTime>02/13/2017 07:40:40</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNSapQuaHan.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNSoTheoDoi.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNTongHopChoXuLy.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/KNTruyVan.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/LichSuTruyVan.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNCanhBao.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNChuyenBoPhanKhac.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNDaPhanHoi.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNNoSelect.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNSelect.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNSelectKNHangLoat.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/ListKNSoTheoDoi.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/NhomKNChoXL.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/PopupChoXuLy.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/SoTheoDoiEdit.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/UcFillter.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/UcFillterMyKhieuNai.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/UcTopContent.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/UserControls/UcTopMyKhieuNai.ascx">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/XMLFiles/ColumnsConfig/defaultConfig.xml">
+      <publishTime>02/13/2017 07:40:41</publishTime>
+    </File>
+    <File Include="Views/QLKhieuNai/XMLFiles/HandlerUpdateXML.ashx">
+      <publishTime>02/13/2017 07:40:42</publishTime>
+    </File>
+    <File Include="Views/TTKH/Handler/ExcelLichSuKhieuNai.aspx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Views/TTKH/Handler/ThongTinKhachHang.ashx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Views/TTKH/ThongTinKhachHang.aspx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Views/TTKH/UC/ucLichSuCuocGoi.ascx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Views/TTKH/UC/ucLichSuKhieuNai.ascx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Views/TTKH/UC/ucLichSuNapThe.ascx">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Web References/ProfileService/useracc.disco">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Web References/ServiceSyncVAS/Reference.map">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Web References/ServiceSyncVNPT_HNI/Reference.map">
+      <publishTime>02/13/2017 07:40:43</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/AloInfoFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:44</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/BasicInfoFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:44</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/BasicServiceFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/BirthDayInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/CarePlusInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/ChatRoomInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/CrossSellInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/DeliverSMHistoryByDateFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/DeliverSMHistoryFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/EmailInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/ErrorInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetCallHistory.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetChangeSim.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHis3G.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisBonus.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisDebitMsisdn.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisReCharge.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisRegisBonus.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisRegisHotbill.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisSMSHotbill.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHistoryDebit.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHistoryPaymentDebit.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHistoryVAS.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHisTwoFriendInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetHotbill.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetIphoneNumstore.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetKit.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetListHotbill.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetPackIn.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetPaymentHotbill.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetStatusAllVAS.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetStatusSerial.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/GetStatusVAS.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Get_3G.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Get_idnumber_to_msisdn_prepaid.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Get_pps2post.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Get_sms900.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/HisSubCriberPPSInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/History3GFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/HistorySMSInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/IdNumberToMSISDNInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/InboundInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/KhuyenMaiCBResponse.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/LichSuKhieuNaiInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/LimitMinusInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Msin_To_MsisdnInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/OutboundInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/PackageDataInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/PackagePromoPPSFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/PortalInformationInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/PPSCardHistoryByMsisdnFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/PPSCardInfoFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/ResponseCPInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/RetrieveSubscriberWithIdentityNoHistoryInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/RetrieveSubscriberWithIdentityWithHistoryForMultipleIdentitiesInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/RetrieveVoucherByBatchSerialInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/SPSResponse.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/SubCashAdvanceInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/SubHistoryFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Subinfo3GEntity.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/Subinfo_WebChatInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/SubmitSMHistoryByDateFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/SubmitSMHistoryFromSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/TBTraTruocFullInfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/VasRbtBuy.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/VasRbtSearch.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web References/ServiceVNP/VasSubinfo.datasource">
+      <publishTime>02/13/2017 07:40:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/01/2017 23:27:14</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>07/11/2017 09:31:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

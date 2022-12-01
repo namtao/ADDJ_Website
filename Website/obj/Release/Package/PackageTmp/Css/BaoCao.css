@@ -1,0 +1,41 @@
+﻿
+body {
+    font-family:Arial, Helvetica, sans-serif; font-size:11px;
+    height:100%;
+    width:98%;
+	}
+ td, th {font-size:11px;}
+.tieude {border:0px solid #000; border-collapse:collapse; width:100%; background:#fff;}
+.th {background:#CDE8FB repeat-x  0px 0px; line-height:18px;}
+.th th {padding-left: 2px; padding-right: 2px;}
+#baocao table tbody tr td {padding-left: 2px; padding-right: 2px;}
+
+.reportFont
+{
+    font-family:Tahoma, Arial !important;  
+    /*font-size:11px !important;*/
+}
+
+.borderThin
+{
+    border:0.5pt solid #000; 
+    border-top-width: 0px; 
+    border-right-width: 0px;
+}
+
+.borderThinTextBold
+{
+    border:0.5pt solid #000; 
+    border-top-width: 0px; 
+    border-right-width: 0px;
+    font-weight:bold;
+}
+
+.print {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	border: solid 1px #056fc4;
+	color: #fff;
+	background: url(/images/button.png) repeat-x 0 0;
+}

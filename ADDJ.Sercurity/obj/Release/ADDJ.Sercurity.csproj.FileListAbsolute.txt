@@ -1,0 +1,22 @@
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\ADDJ.Sercurity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\ADDJ.Sercurity.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.csprojResolveAssemblyReference.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\Bin\Release\ADDJ.Sercurity.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\Bin\Release\ADDJ.Sercurity.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.csprojAssemblyReference.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.csproj.CoreCompileInputs.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\AIVietNam.Sercurity\obj\Release\ADDJ.Sercurity.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\Bin\Release\ADDJ.Sercurity.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\Bin\Release\ADDJ.Sercurity.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\Bin\Release\ADDJ.Sercurity.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\Bin\Release\ADDJ.Sercurity.pdb
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.csprojAssemblyReference.cache
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.dll
+D:\OLD ARCHICE\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Sercurity\obj\Release\ADDJ.Sercurity.pdb

@@ -1,0 +1,12 @@
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\VnptNet.Sercurity.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\VnptNet.Sercurity.pdb
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.csprojResolveAssemblyReference.cache
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.pdb
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\VnptNet.Sercurity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\Bin\Release\VnptNet.Sercurity.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.csprojResolveAssemblyReference.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Sercurity\obj\Release\VnptNet.Sercurity.pdb

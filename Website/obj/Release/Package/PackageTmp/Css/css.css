@@ -1,0 +1,40 @@
+a{ text-decoration: none;}
+
+.text
+{
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: none;
+    color: Black;
+}
+
+.button
+{
+    border-top: 1px solid #0099CC;
+    border-right: 1px solid #0099CC;
+    border-bottom: 1px solid #0099CC;
+    border-left: 1px solid #0099CC;
+    background-color: #67aad3;
+    font-family: Arial;
+    font-size: 11px;
+    color: #FFFFCC;
+    cursor: pointer;
+    width: 80px;
+}
+
+
+div#content_panel 
+{
+	padding:0px 10px 0px 10px;
+	border-left: solid 4px #3b78ae;
+	border-right: solid 4px #3b78ae;
+	top:0px;
+	bottom:0px;
+}
+
+.ModalPopupBG
+{
+    background-color: #252525;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}

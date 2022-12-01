@@ -1,0 +1,241 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Default.master" AutoEventWireup="true" CodeBehind="mn_ThietLapQuyenNguoiDung.aspx.cs" Inherits="Website.HeThongHoTro.Manager.mn_ThietLapQuyenNguoiDung" %>
+
+<%@ Register Assembly="DevExpress.Web.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeaderCss" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="HeaderJs" runat="server">
+    <script type="text/javascript">
+        function chonDonViAdd(s, e) {
+
+            var tendv = '';
+            var key = treeListDanhSachDonViAdd.GetFocusedNodeKey();
+            treeListDanhSachDonViAdd.GetNodeValues(key, "TENDONVI", function (value) {
+                ddlChonDonViAdd.SetText(value);
+                ddlChonDonViAdd.SetKeyValue(key);
+                ddlChonDonViAdd.HideDropDown();
+            });
+            // khong can
+            //treeListDanhSachDonViAdd.GetNodeValues(key, "ID", function (value) {
+            //    ASPxHiddenField1.Set('ID_DONVI_ADD', value);
+            //});
+        }
+        function chonDonViEdit(s, e) {
+            var tendv = '';
+            var key = treeListDanhSachDonViEdit.GetFocusedNodeKey();
+            treeListDanhSachDonViEdit.GetNodeValues(key, "TENDONVI", function (value) {
+                ddlChonDonViEdit.SetText(value);
+                ddlChonDonViEdit.SetKeyValue(key);
+                ddlChonDonViEdit.HideDropDown();
+            });
+            // khong can
+            //treeListDanhSachDonViAdd.GetNodeValues(key, "ID", function (value) {
+            //    ASPxHiddenField1.Set('ID_DONVI_EDIT', value);
+            //});
+        }
+
+
+        $(function () {
+            treeListMenuQuyen.PerformCallback();
+        });
+        function OnNodeDbClick(s, e) {
+            //alert(e.nodeKey);
+            //s.StartEdit(e.nodeKey);
+            ASPxHiddenField1.Set('ID_DONVI', e.nodeKey);
+            // lblTenDonVi.SetText(e.nodeKey);
+            //var key = s.GetFocusedNodeKey();
+            //alert(key);
+            // var keyValue = ASPxTreeList1.GetFocusedNodeKey();
+            treeListDanhSachDonVi.GetNodeValues(e.nodeKey, "ID", function (value) {
+                ddlChonDonViAdd.SetKeyValue(value);
+                ddlChonDonViEdit.SetKeyValue(value);
+            });
+            treeListDanhSachDonVi.GetNodeValues(e.nodeKey, "Name", function (value) {
+                ddlChonDonViAdd.SetText(value);
+                ddlChonDonViEdit.SetText(value);
+            });
+
+            treeListDanhSachDonVi.GetNodeValues(e.nodeKey, 'Name', ProcessValue);
+            grvNguoiDung.PerformCallback();
+        }
+
+        function ProcessValue(val) {
+            //alert(val);
+            lblTenDonVi.SetText(val);
+        }
+
+        function convert(str) {
+            var date = new Date(str),
+                mnth = ("0" + (date.getMonth() + 1)).slice(-2),
+                day = ("0" + date.getDate()).slice(-2);
+            return [date.getFullYear(), mnth, day].join("-");
+        }
+
+        function luu_thiet_lap_quyen(s, e) {
+            cbPnthietlapquyen.PerformCallback("save");
+        }
+
+
+        var postponedCallbackRequired = false;
+        function chonquyen(val) {
+
+            treeListMenuQuyen.PerformCallback();
+
+            //       if (CallbackPanel.InCallback())
+            //       postponedCallbackRequired = true;
+            //   else
+            //       CallbackPanel.PerformCallback();
+            //}
+            //  function OnEndCallback(s, e) {
+            //   if (postponedCallbackRequired) {
+            //       CallbackPanel.PerformCallback();
+            //       postponedCallbackRequired = false;
+            //      }
+            //      else
+            //   {
+            //       treeListMenuQuyen.PerformCallback();
+            //   }
+        }
+
+
+    </script>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_Main" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_Text" runat="server">
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="Content" runat="server">
+    <!-- begin panel nav boot -->
+    <div class="nav_btn_bootstrap">
+        <ul>
+            <li><a href="javascript:history.back()" class="btn btn-primary"><span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>Quay về</a></li>
+            <li><a onclick="themMoiNguoiDung()" class="btn btn-primary"><span class="new"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Thêm mới</span></a></li>
+        </ul>
+    </div>
+    <!-- end panel nav boot -->
+    <div class="p8">
+        <!-- begin panel boot -->
+        <div class="panel panel-default">
+            <div class="panel-heading"><span style="font-size: 12pt"></span></div>
+            <div class="panel-body" style="border: none">
+                <div class="container-fluid" style="margin-left: 0px">
+                    <div class="row">
+                        <div class="col-md-2"><strong>Danh sách quyền</strong></div>
+                        <div class="col-md-10">
+                            <strong>Phân quyền menu
+                                <dx:ASPxLabel ID="lblTenDonVi" ForeColor="LightCoral" ClientInstanceName="lblTenDonVi" runat="server" Text="(Danh sách các quyền hiện có của người dùng này, chú ý người này thuộc nhóm nào thì kế thừa của nhóm đó)"></dx:ASPxLabel>
+                            </strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Danh sách quyền -->
+                        <div class="col-md-2">
+                            <div style="height: 350px;">
+                                Người dùng: <dx:ASPxLabel ID="lblTenNguoiDung" runat="server" ClientInstanceName="lblTenNguoiDung"
+                                     Theme="Office2010Blue"></dx:ASPxLabel>
+                            </div>
+                            <div>
+                                <dx:ASPxButton runat="server" Text="Lưu thiết lập" ID="luuThongTin" ClientInstanceName="luuThongTin"
+                                    AutoPostBack="false" Theme="Office2010Blue">
+                                    <ClientSideEvents Click="luu_thiet_lap_quyen" />
+                                    <Image Url="~/HTHTKT/icons/save_16x16.gif">
+                                    </Image>
+                                </dx:ASPxButton>
+                            </div>
+                        </div>
+                        <!-- Menu quyền người dùng   -->
+                        <div class="col-md-10">
+                            <div style="height: 500px; overflow-y: scroll">
+                                <dx:ASPxTreeList runat="server" ID="treeListMenuQuyen" AutoGenerateColumns="False"
+                                    ClientInstanceName="treeListMenuQuyen" EnableTheming="True"
+                                    KeyFieldName="ID"
+                                    OnCustomCallback="treeListMenuQuyen_CustomCallback"
+                                    OnHtmlDataCellPrepared="treeListMenuQuyen_HtmlDataCellPrepared"
+                                    OnVirtualModeCreateChildren="treeListMenuQuyen_VirtualModeCreateChildren"
+                                    OnVirtualModeNodeCreated="treeListMenuQuyen_VirtualModeNodeCreated"
+                                    OnVirtualModeNodeCreating="treeListMenuQuyen_VirtualModeNodeCreating"
+                                    OnHtmlRowPrepared="treeListMenuQuyen_HtmlRowPrepared"
+                                    Theme="Aqua" EnablePagingGestures="False">
+                                    <Styles>
+                                        <FocusedNode Cursor="pointer" BackColor="LightBlue"></FocusedNode>
+                                        <Node Cursor="pointer"></Node>
+                                        <Indent Cursor="default"></Indent>
+                                    </Styles>
+                                    <SettingsBehavior AllowFocusedNode="true" FocusNodeOnExpandButtonClick="false" FocusNodeOnLoad="false" />
+
+                                    <SettingsSelection Enabled="True" />
+                                    <Columns>
+                                        <dx:TreeListTextColumn Caption="ID" FieldName="ID" VisibleIndex="2" Visible="false">
+                                        </dx:TreeListTextColumn>
+                                        <dx:TreeListTextColumn Caption="Tên menu" FieldName="Name" VisibleIndex="0">
+                                        </dx:TreeListTextColumn>
+
+                                        <dx:TreeListCheckColumn Caption="Sửa" Name="UserEdit">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="editnode"
+                                                    Checked='<%# Eval("UserEdit") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+                                        <dx:TreeListCheckColumn Caption="Xóa" Name="UserDelete">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="deletenode"
+                                                    Checked='<%# Eval("UserDelete") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+                                        <dx:TreeListCheckColumn Caption="Khác 1 (xem)" Name="Other1">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="other1node"
+                                                    Checked='<%# Eval("Other1") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+                                        <dx:TreeListCheckColumn Caption="Khác 2 (thêm)" Name="Other2">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="other2node"
+                                                    Checked='<%# Eval("Other2") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+                                         <dx:TreeListCheckColumn Caption="Khác 3 (in)" Name="Other3">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="other3node"
+                                                    Checked='<%# Eval("Other3") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+
+                                         <dx:TreeListCheckColumn Caption="Khác 4 (tải về)" Name="Other4">
+                                            <DataCellTemplate>
+                                                <dx:ASPxCheckBox runat="server" ID="other4node"
+                                                    Checked='<%# Eval("Other4") %>'>
+                                                </dx:ASPxCheckBox>
+                                            </DataCellTemplate>
+                                        </dx:TreeListCheckColumn>
+                                    </Columns>
+                                </dx:ASPxTreeList>
+                            </div>
+                            <dx:ASPxHiddenField ID="ASPxHiddenField1" ClientInstanceName="ASPxHiddenField1" runat="server"></dx:ASPxHiddenField>
+                        </div>
+                    </div>
+                </div>
+                <!-- begin body boot -->
+
+                <dx:ASPxCallback ID="cbPnthietlapquyen" runat="server" ClientInstanceName="cbPnthietlapquyen"
+                    OnCallback="cbPnthietlapquyen_Callback">
+                    <ClientSideEvents EndCallback="function(s,e){
+                        alert('Cập nhật thành công!');
+                        treeListMenuQuyen.PerformCallback();
+                        }" />
+                </dx:ASPxCallback>
+                <dx:ASPxLoadingPanel ID="loadingdata2" runat="server" ClientInstanceName="loadingdata2">
+                </dx:ASPxLoadingPanel>
+            </div>
+            <!-- end body boot -->
+        </div>
+    </div>
+    <!-- end panel boot -->
+    <dx:ASPxHiddenField ID="hiddenQuyen" ClientInstanceName="hiddenQuyen" runat="server"></dx:ASPxHiddenField>
+</asp:Content>
+

@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Master_Default" CodeBehind="Master_Default.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" enableviewstate="false">
+    <title>Technical Support Centralized System-TSCS</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <%# string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/css/reset.css"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/css/style.css"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/Content/easyui.css"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/css/style.cus.css"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/Css/HTHTKT.css"), Website.AppCode.Common.Ver)  %>
+
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/Content/bootstrap.min.css"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<link href=\"{0}?ver={1}\" type=\"text/css\" rel=\"stylesheet\" />", ResolveClientUrl("~/Content/font-awesome.min.css"), Website.AppCode.Common.Ver)  %>
+
+    <asp:ContentPlaceHolder runat="server" ID="HeaderCss"></asp:ContentPlaceHolder>
+
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/Scripts/jquery-3.3.1.min.js"), Website.AppCode.Common.Ver)  %>
+
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/JS/jquery.easyui.min.js"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/JS/Utility.js"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/Scripts/bootstrap.min.js"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/Scripts/tableExport.js"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/Scripts/FileSaver.min.js"), Website.AppCode.Common.Ver)  %>
+    <%#string.Format("<script src=\"{0}?ver={1}\" type=\"text/javascript\"></script>", ResolveClientUrl("~/Scripts/xlsx.core.min.js"), Website.AppCode.Common.Ver)  %>
+
+    <style type="text/css">
+        a {
+            text-decoration: none !important
+        }
+
+        #footer {
+            height: 90px;
+            background-image: url('Images/Layer 2.png');
+            background-color: #030a36;
+            background-position: left;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () { $("input").attr("autocomplete", "off"); });
+        $(document).ready(function () {
+            $('#menu li').hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).fadeIn(400); // effect 1
+                // $(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown(400); // effect 2
+            }, function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        });
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
+        $(document).ready(function () {
+            $(".menutabs1 a").mouseover(function () {
+                $("a.selected").attr('class', 'cainay');
+            });
+            $(".menutabs1 a").mouseout(function () {
+                $("a.cainay").attr('class', 'selected');
+            });
+
+            $(".paginator a").mouseover(function () {
+                $("a.active").attr('class', 'cainay');
+            });
+            $(".paginator a").mouseout(function () {
+                $("a.cainay").attr('class', 'active');
+            });
+
+            // this will get the full URL at the address bar
+            var url = window.location.href;
+
+            // passes on every "a" tag 
+            $("#menu a").each(function (val) {
+                // checks if its the same on the address bar
+                ///HeThongHoTro/CacYeuCauHoTroCuaToi.aspx               
+                if (url == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                    $(this).parents("li").last().addClass("active");
+                }
+                if (url + 'ADDJ_TH/views/TraCuuHoSoADDJ.aspx' == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                    $(this).parents("li").last().addClass("active");
+                }
+                var href = $(this).attr('href');
+                var href1 = window.location.href;
+                if (url + '#' == (this.href) && href1.indexOf('default.aspx') > 0) {
+                    $('a[href*="TraCuuHoSoADDJ.aspx"]').addClass("active");
+                }
+                if (url == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                    $(this).parents("li").last().addClass("active");
+                }
+            });
+        });
+
+        function dangxuat() {
+            if (confirm('Bạn muốn đăng xuất khỏi ứng dụng?')) {
+                window.location = '/exit.aspx';
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder runat="server" ID="HeaderJs"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data" method="post">
+        <asp:ScriptManager runat="server" EnableScriptGlobalization="true" EnableScriptLocalization="false"></asp:ScriptManager>
+        <div id="banner" style="background-image: url('Images/Layer 3.png'); background-color: #030a36; background-position: left;">
+            <a class="link" href="/" style="background-image: url('Images/web-logo2.jpg'); background-repeat: no-repeat;">&nbsp;</a>
+            <h1>PHẦN MỀM QUẢN LÝ HỒ SƠ LƯU TRỮ A-DigiDOC</h1>
+            <div class="userarea">
+                <i class="iconUser">&nbsp;</i>Xin chào: <a href="#"><b>
+                    <asp:Literal ID="ltAdmin" runat="server"></asp:Literal></b></a>
+                <asp:Literal runat="server" ID="liSp" Text="|"></asp:Literal>
+                <asp:DropDownList ID="ddlPhongBan" ForeColor="Black" runat="server" OnSelectedIndexChanged="ddlPhongBan_SelectedIndexChanged"
+                    DataValueField="ID" DataTextField="TENDONVI" AutoPostBack="true">
+                </asp:DropDownList>
+                |<a href="#" onclick="dangxuat();">&nbsp;Đăng xuất</a>
+            </div>
+        </div>
+        <div id="menu">
+            <asp:Literal ID="ltMenu2" runat="server"></asp:Literal>
+        </div>
+
+        <div class="clear"></div>
+        <div id="contain">
+            <div class="p10">
+                <div class="boxinfor">
+                    <div class="titlebox">
+                        <h4>
+                            <asp:Literal ID="ltTitlePage" runat="server"></asp:Literal>
+                        </h4>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Main" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Text" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder runat="server" ID="Content"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <h4>CÔNG TY CỔ PHẦN CÔNG NGHỆ HÀNH CHÍNH ADDJ</h4>
+            <p>Số 3A, Ngách 3, Ngõ 514 Thụy Khuê, Phường Bưởi, Quận Tây Hồ, TP. Hà Nội</p>
+            <p>Website : http://addj.vn</p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C73B10F0-A17C-4AFD-A111-B4DDB69A1989}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADDJ.Entity</RootNamespace>
+    <AssemblyName>ADDJ.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SolrNet">
+      <HintPath>..\Lib\SolrNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchiveConfigInfo.cs" />
+    <Compile Include="ConfigColumnInfo.cs" />
+    <Compile Include="ConfigDisplayColumnInfo.cs" />
+    <Compile Include="ConfigurationSystemInfo.cs" />
+    <Compile Include="ConfigurationTimeInfo.cs" />
+    <Compile Include="CongTyDoiTacInfo.cs" />
+    <Compile Include="DauSoCPInfo.cs" />
+    <Compile Include="DichVuCPInfo.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="GopY_PortalInfo.cs" />
+    <Compile Include="GQKNMessageException.cs" />
+    <Compile Include="KhieuNaiChiTietInfo.cs" />
+    <Compile Include="KhieuNaiRef_VNPTInfo.cs" />
+    <Compile Include="KhieuNaiSolrInfo.cs" />
+    <Compile Include="KhieuNai_BuocXuLy_AutocompleteInfo.cs" />
+    <Compile Include="KhieuNai_KetQuaXuLyInfo.cs" />
+    <Compile Include="KhieuNai_PortalInfo.cs" />
+    <Compile Include="KhieuNai_Portal_FileDinhKemInfo.cs" />
+    <Compile Include="KhieuNai_ReportInfo.cs" />
+    <Compile Include="KhieuNai_SoTienInfo.cs" />
+    <Compile Include="KhieuNai_TruyVanInfo.cs" />
+    <Compile Include="KhieuNai_TruyVanNameValue.cs" />
+    <Compile Include="KhieuNai_TruyVanObject.cs" />
+    <Compile Include="KhieuNai_UpdateArchiveInfo.cs" />
+    <Compile Include="LichSuTruyVanInfo.cs" />
+    <Compile Include="LichSuPhanViecInfo.cs" />
+    <Compile Include="LoaiKhieuNai_NhomInfo.cs" />
+    <Compile Include="LoaiKhieuNai_VASUpdateInfo.cs" />
+    <Compile Include="LoaiPhongBanInfo.cs" />
+    <Compile Include="LoaiPhongBan_PermissionInfo.cs" />
+    <Compile Include="LoaiPhongBan_ThoiGianXuLyKhieuNaiInfo.cs" />
+    <Compile Include="LoiKhieuNaiInfo.cs" />
+    <Compile Include="NgayLeInfo.cs" />
+    <Compile Include="NguoiSuDung_GioiHanGiamTruInfo.cs" />
+    <Compile Include="NguoiSuDung_OnlineInfo.cs" />
+    <Compile Include="NguoiSuDung_PermissionInfo.cs" />
+    <Compile Include="NhomNguoiDung_AIInfo.cs" />
+    <Compile Include="NhomNguoiDung_AI_DetailInfo.cs" />
+    <Compile Include="NhomNguoiDung_AI_PermissionInfo.cs" />
+    <Compile Include="OutputJSONToAJax.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="PermissionDefaultInfo.cs" />
+    <Compile Include="PermissionSchemes.cs" />
+    <Compile Include="PortalInformationInfo.cs" />
+    <Compile Include="PostSolrConnection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CategoryInfo.cs" />
+    <Compile Include="NewsInfo.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="LogInfo.cs" />
+    <Compile Include="DoiTacInfo.cs" />
+    <Compile Include="KhieuNaiInfo.cs" />
+    <Compile Include="KhieuNai_ActivityInfo.cs" />
+    <Compile Include="KhieuNai_BuocXuLyInfo.cs" />
+    <Compile Include="KhieuNai_FileDinhKemInfo.cs" />
+    <Compile Include="KhieuNai_GiaiPhapInfo.cs" />
+    <Compile Include="KhieuNai_LogInfo.cs" />
+    <Compile Include="KhieuNai_WatchersInfo.cs" />
+    <Compile Include="LoaiKhieuNaiInfo.cs" />
+    <Compile Include="LoaiKhieuNai2PhongBanInfo.cs" />
+    <Compile Include="NguoiSuDungInfo.cs" />
+    <Compile Include="NguoiSuDung_GroupInfo.cs" />
+    <Compile Include="NguoiSuDung_GroupDetailInfo.cs" />
+    <Compile Include="PermissionSchemesInfo.cs" />
+    <Compile Include="PhongBanInfo.cs" />
+    <Compile Include="PhongBan_PermissionInfo.cs" />
+    <Compile Include="PhongBan_UserInfo.cs" />
+    <Compile Include="PhongBan2PhongBanInfo.cs" />
+    <Compile Include="ProvinceInfo.cs" />
+    <Compile Include="ThongBaoInfo.cs" />
+    <Compile Include="ThongKeKhieuNaiEntity.cs" />
+    <Compile Include="TinhInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADDJ.Core\ADDJ.Core.csproj">
+      <Project>{4DF930BD-702A-4D3C-A127-D5DF3F50D108}</Project>
+      <Name>ADDJ.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

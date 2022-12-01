@@ -1,0 +1,11 @@
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\AIVietNam.Core.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\AIVietNam.Core.pdb
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\Highlighter.Net.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\Lucene.Net.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\Newtonsoft.Json.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\SimilarityNet.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\Highlighter.Net.xml
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\Bin\Debug\Newtonsoft.Json.xml
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\obj\Debug\AIVietNam.Core.csprojResolveAssemblyReference.cache
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\obj\Debug\AIVietNam.Core.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Core\obj\Debug\AIVietNam.Core.pdb

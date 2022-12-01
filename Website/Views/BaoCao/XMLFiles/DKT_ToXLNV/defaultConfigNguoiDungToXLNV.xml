@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ToXLNV>
+  <NguoiSuDung>
+    <SoTT>1</SoTT>
+    <TenDayDu>Nguyễn Thị Anh Ngọc</TenDayDu>
+    <TenTruyCap>ngocnta_TC_vnp1</TenTruyCap>
+    <IsHoatDong>true</IsHoatDong>
+  </NguoiSuDung>
+  <NguoiSuDung>
+    <SoTT>2</SoTT>
+    <TenDayDu>Bùi Thanh Thuỷ</TenDayDu>
+    <TenTruyCap>thuybt_vnp1</TenTruyCap>
+    <IsHoatDong>true</IsHoatDong>
+  </NguoiSuDung>  
+</ToXLNV>

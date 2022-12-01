@@ -1,0 +1,60 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Default.master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Website.HeThongHoTro.WebForm1" %>
+
+<%@ Register Assembly="DevExpress.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeaderCss" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="HeaderJs" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_Main" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_Text" runat="server">
+    <div style="width: 100%; margin-top: 50px;">
+        <div style="width: 100%; margin: 0 auto;">
+            <dx:ASPxGridView ID="grvCustomer" runat="server" AutoGenerateColumns="False" KeyFieldName="CustomerID"
+                Width="500" Theme="Office2010Blue">
+                <SettingsPager Visible="False">
+                </SettingsPager>
+                <Border BorderWidth="1px" BorderStyle="Solid"></Border>
+                <Columns>
+                    <dx:GridViewDataTextColumn FieldName="ID" VisibleIndex="1" Caption="Mã khách">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ID_HETHONG_YCHT" VisibleIndex="2" Caption="Tên công ty">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ID_LUONG_HOTRO" VisibleIndex="3" Caption="Tên liên hệ">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ID_DONVI" VisibleIndex="4" Caption="Tiêu đề">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="BUOCXULY" VisibleIndex="5" Caption="Địa chỉ">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ID_DOITAC" VisibleIndex="5" Caption="Địa chỉ">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="ID_PHONGBAN" VisibleIndex="5" Caption="Địa chỉ">
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewDataTextColumn FieldName="NGAYTAO" VisibleIndex="5" Caption="Địa chỉ">
+                    </dx:GridViewDataTextColumn>
+                </Columns>
+            </dx:ASPxGridView>
+            <div style="width: 498px; height: 30px; border: solid 1px #999; border-top: none;">
+                <div style="float: right;">
+                    <dx:ASPxPager ID="ASPxPager1" ItemCount="3" ItemsPerPage="1" runat="server" NumericButtonCount="5"
+                        CurrentPageNumberFormat="{0}" OnPageIndexChanged="ASPxPager1_PageIndexChanged" Theme="Office2010Blue">
+                        <LastPageButton Visible="True">
+                        </LastPageButton>
+                        <AllButton Text="Tất cả">
+                        </AllButton>
+                        <FirstPageButton Visible="True">
+                        </FirstPageButton>
+                        <Summary Position="Inside" Text="Trang {0} của {1} " />
+                        <CurrentPageNumberStyle BackColor="#FFFF99" ForeColor="Red">
+                            <Paddings PaddingLeft="5" PaddingRight="5" PaddingTop="2" PaddingBottom="2" />
+                            <border bordercolor="#CC0000" borderstyle="Solid" borderwidth="1px" />
+                        </CurrentPageNumberStyle>
+                    </dx:ASPxPager>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="Content" runat="server">
+</asp:Content>

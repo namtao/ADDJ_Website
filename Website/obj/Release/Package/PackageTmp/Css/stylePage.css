@@ -1,0 +1,9 @@
+﻿
+a:hover {
+color: black;
+}
+
+.gn_pages { background-color: #f3f4f6; height: 25px; margin-bottom: 10px; }
+.gn_pages a { font-size: 11px; color: #002556; font-weight: bold; padding: 5px; display: block; float: left; padding: 5px 10px; }
+.gn_pages a:hover { font-size: 11px; color: #002556; font-weight: bold; padding: 5px; display: block; float: left; padding: 5px 10px; background-color: #d9e3ef; }
+.gn_pages a.active { font-size: 11px; color: #002556; font-weight: bold; padding: 5px 10px; display: block; float: left; background-color: #d9e3ef; }

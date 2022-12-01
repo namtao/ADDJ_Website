@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Screens>
+  <Screen Name="KNTongHopChoXuLy">
+    <Columns>
+      <Column sort="0" >Check</Column>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="6" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="12" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap2</Column>
+      <Column sort="13" display="Người được phản hồi" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap3</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="14" display="Nguoi tiền XL phòng ban" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap1</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="17" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="18" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="19" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="20" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNChoXuLy">
+    <Columns>
+      <Column sort="0" >Check</Column>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="6" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="12" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap2</Column>
+      <Column sort="13" display="Người được phản hồi" width="120" sortable="false" align="center" hide="true">NguoiTienXuLyCap3</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="14" display="Nguoi tiền XL phòng ban" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap1</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="17" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="18" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="19" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="20" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNChuyenBoPhanKhac">
+    <Columns>
+      <Column sort="0" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="1" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="2" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="3" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="4" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="5" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="6" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="7" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="8" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="9" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="10" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="11" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiXuLyTruoc</Column>
+      <Column sort="12" display="Người được phản hồi" width="120" sortable="false" align="center" hide="true">NguoiDuocPhanHoi</Column>
+      <Column sort="13" display="Phòng ban XL" width="120" sortable="false" align="center" hide="false">PhongBanXuLy</Column>
+      <Column sort="14" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="15" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="16" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="17" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="18" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="19" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNBoPhanKhacChuyenVe">
+    <Columns>
+      <Column sort="0" >Check</Column>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="6" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="12" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap2</Column>
+      <Column sort="13" display="Người được phản hồi" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap3</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="14" display="Nguoi tiền XL phòng ban" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap1</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="17" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="18" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="19" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="20" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNSapQuaHan">
+    <Columns>
+      <Column sort="0" >Check</Column>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="6" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="12" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiXuLyTruoc</Column>
+      <Column sort="13" display="Người được phản hồi" width="120" sortable="false" align="center" hide="false">NguoiDuocPhanHoi</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="17" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="18" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="19" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="20" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNCanDong">
+    <Columns>
+      <Column sort="0" >Check</Column>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="6" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="12" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap2</Column>
+      <Column sort="13" display="Người được phản hồi" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap3</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="14" display="Nguoi tiền XL phòng ban" width="120" sortable="false" align="center" hide="false">NguoiTienXuLyCap1</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="17" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="18" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="19" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="20" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="KNDaPhanHoi">
+    <Columns>
+      <Column sort="0" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="1" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="2" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="3" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="4" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="5" display="Nội dung PA" width="200" sortable="false" align="left" hide="false">NoiDungPA</Column>
+      <Column sort="6" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="7" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="8" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="9" display="Phòng ban TN" width="120" sortable="false" align="center" hide="true">PhongBanTiepNhan</Column>
+      <Column sort="10" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="11" display="Người tiền XL" width="120" sortable="false" align="center" hide="false">NguoiXuLyTruoc</Column>
+      <Column sort="12" display="Người được phản hồi" width="120" sortable="false" align="center" hide="true">NguoiDuocPhanHoi</Column>
+      <Column sort="13" display="Phòng ban XL" width="120" sortable="false" align="center" hide="false">PhongBanXuLy</Column>
+      <Column sort="14" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="15" display="Phân việc" width="80" sortable="false" align="center" hide="false">IsPhanViec</Column>
+      <Column sort="16" display="Ngày TN" width="130" sortable="true" align="center" hide="false">NgayTiepNhanSort</Column>
+      <Column sort="17" display="Ngày quá hạn PB" width="130" sortable="true" align="center" hide="false">NgayQuaHanPhongBanXuLySort</Column>
+      <Column sort="18" display="Ngày quá hạn TT" width="130" sortable="true" align="center" hide="false">NgayQuaHanSort</Column>
+      <Column sort="19" display="Ngày cập nhật" width="130" sortable="true" align="center" hide="false">LDate</Column>
+    </Columns>
+  </Screen>
+  <Screen Name="TruyVan">
+    <Columns>
+      <Column sort="1" display="STT" width="40" sortable="false" align="center" hide="false">STT</Column>
+      <Column sort="2" display="Trạng thái" width="70" sortable="true" align="center" hide="false">TrangThai</Column>
+      <Column sort="3" display="Mã PA/KN" width="110" sortable="true" align="center" hide="false">Id</Column>
+      <Column sort="4" display="Độ ưu tiên" width="70" sortable="true" align="center" hide="false">DoUuTien</Column>
+      <Column sort="5" display="Số thuê bao" width="110" sortable="true" align="center" hide="false">SoThueBao</Column>
+      <Column sort="7" display="Loại khiếu nại" width="150" sortable="false" align="left" hide="false">LoaiKhieuNai</Column>
+      <Column sort="8" display="Lĩnh vực chung" width="200" sortable="false" align="left" hide="false">LinhVucChung</Column>
+      <Column sort="9" display="Lĩnh vực con" width="200" sortable="false" align="left" hide="false">LinhVucCon</Column>
+      <Column sort="10" display="Ngày tiếp nhận" width="120" sortable="false" align="center" hide="true">NgayTiepNhan</Column>
+      <Column sort="11" display="Người TN" width="120" sortable="false" align="center" hide="false">NguoiTiepNhan</Column>
+      <Column sort="14" display="Phòng ban XL" width="120" sortable="false" align="center" hide="true">PhongBanXuLy</Column>
+      <Column sort="15" display="Người XL" width="120" sortable="false" align="center" hide="false">NguoiXuLy</Column>
+      <Column sort="16" display="Ngày đóng khiếu nại" width="120" sortable="false" align="center" hide="false">NgayDongKhieuNai</Column>
+      <Column sort="17" display="Nội dung phản ánh" width="120" sortable="false" align="center" hide="false">NoiDungPA</Column>
+      <Column sort="18" display="Nội dung xử lý đóng KN" width="80" sortable="false" align="center" hide="false">NoiDungXuLyDongKN</Column>
+      <Column sort="19" display="Điện thoại liên hệ" width="80" sortable="false" align="center" hide="false">SDTLienHe</Column>
+      <Column sort="20" display="Họ tên liên hệ" width="80" sortable="false" align="center" hide="false">HoTenLienHe</Column>
+      <Column sort="21" display="Địa chỉ liên hệ" width="80" sortable="false" align="center" hide="false">DiaChiLienHe</Column>
+      <Column sort="22" display="Thời gian xảy ra" width="80" sortable="false" align="center" hide="false">ThoiGianXayRa</Column>
+      <Column sort="23" display="Mã quận sự cố" width="80" sortable="false" align="center" hide="false">MaQuanSuCo</Column>
+      <Column sort="24" display="Mã tỉnh sự cố" width="80" sortable="false" align="center" hide="false">MaTinhSuCo</Column>
+      <Column sort="25" display="Địa điểm sự cố" width="80" sortable="false" align="center" hide="false">DiaDiemSuCo</Column>
+      <Column sort="26" display="Ngày quá hạn phòng ban" width="120" sortable="false" align="center" hide="false">NgayQuaHanPhongBan</Column>
+      <Column sort="27" display="Ngày quá hạn toàn trình" width="120" sortable="false" align="center" hide="false">NgayQuaHanToanTrinh</Column>
+      <Column sort="28" display="Ngày cập nhật" width="120" sortable="false" align="center" hide="false">LDate</Column>
+      <Column sort="29" display="Ghi chú" width="120" sortable="false" align="center" hide="false">GhiChu</Column>
+      <Column sort="30" display="Độ hài lòng" width="80" sortable="false" align="center" hide="false">DoHaiLong</Column>
+      <Column sort="31" display="Loại lỗi" width="80" sortable="false" align="center" hide="false">LoaiLoi</Column>
+    </Columns>
+  </Screen>
+
+</Screens>

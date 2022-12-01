@@ -1,0 +1,152 @@
+﻿
+.homePageHeader{
+	background-image: url(headerGRADIENT_Tall.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+
+#rightarea {
+padding: 10px 5px;
+height: 100%;
+}
+
+.head {
+font-size: 16px;
+text-transform: uppercase;
+border-bottom: 1pt solid #ccc;
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+
+.head h3 {
+font-size: 12px;
+text-shadow: 1pt 1pt 1pt #CCC;
+color: #006599;
+font-weight: bold;
+text-align: left;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+
+.boxOB .topbox {
+text-align: center;
+background: url("../images/bg_th.jpg") repeat-x 0px 0px;
+line-height: 28px;
+color: #006599;
+font-weight: bold;
+border: 1pt solid #9BCBE1;
+}
+
+.boxOB .midbox {
+border: 1pt solid #ccc;
+padding: 10px;
+}
+
+.boxOB {
+color: #006599;
+font-weight: bold;
+}
+
+.nobor {
+width: 100%;
+font-size: 12px;
+}
+
+.nobor td {
+padding: 2px;
+border: none;
+text-align: left;
+}
+
+.nobor td input[type='text'] {
+width: 100%;
+}
+
+.tblBorder {border:1pt solid #ccc; border-collapse:collapse; width:100%; background:#fff; font-size:11px}
+.tblBorder input[type='checkbox'] {border:none}
+.tblBorder .top td {font-weight:bold; text-align:center; background-color:#F2F7FB}
+.tblBorder .bottom td { background:#eee}
+.tblBorder th {background:url("../images/bg_th.jpg") repeat-x  0px 0px; line-height:28px; border:1pt solid #ccc; border-collapse:collapse;}
+.tblBorder td {border:1pt solid #ccc; border-collapse:collapse;padding:5px 8px}
+
+.superborder {
+border-collapse: collapse;
+}
+
+.myGridView
+{
+	border: 1px;
+	border-color:#16538C;
+	border-style:Solid;
+	border-collapse:collapse;
+	width:100%;	
+}
+
+.myGridView th
+{
+	color:White;background-color:#2360A4;font-weight:bold;
+}
+
+.row_even
+{
+	background-color: #DEEAF3;
+}
+
+.row_even:hover
+{
+	background-color: #f5eeb8;	
+}
+
+.row_odd
+{
+	background-color: #ffffff;
+}
+
+.row_odd:hover
+{
+	background-color: #f5eeb8;	
+}
+
+.button_clear_filter
+{
+	border: 0px;
+	text-decoration: underline;
+	cursor: pointer;		
+	background: url('images/nav_delete_btn.jpg') no-repeat;
+	padding: 3px 5px 3px 10px;	
+}
+
+
+
+.popup_Buttons
+{
+	border-top: 1pt solid #ccc;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;	
+	
+	}
+	
+
+
+
+
+.ajax__tab_header {text-align:left; overflow:hidden; height:100%}
+.ajax__tab_header span {display:inline-block; background:#ccc; float:left; width:80px; margin-right:0px !important; text-align:center; margin-right:1px !important}
+.ajax__tab_header span span {padding:5px 0px; background:none; float:none; width:auto; margin-right:0px !important; display:inline !important}
+.ajax__tab_header .ajax__tab_outer, .ajax__tab_header .ajax__tab_inner {padding:5px 0px !important;margin-right:0px !important; display:inline !important}
+.ajax__tab_header span.ajax__tab_active {background:#006599 !important; color:#fff;margin-right:0px !important; display:inline !important}
+.ajax__tab_body {border:1pt solid #ccc}
+.ajax__tab_header .ajax__tab_hover {background:#eee}
+.ajax__tab_header .ajax__tab_tab {white-space:normal; display:inline !important}
+.ajax__tab_header .ajax__tab_outer {display:block !important}
+
+.button
+{
+	background: none;
+	}

@@ -1,0 +1,49 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Master_Default.master" AutoEventWireup="true" Inherits="Default"
+    Title="Home - Hệ thống hỗ trợ kỹ thuật tập trung" CodeBehind="Default.aspx.cs" %>
+
+<%@ Register Src="HeThongHoTro/Dashboards/DanhSachHoTroXuLyHT.ascx" TagName="DanhSachHoTroXuLyHT" TagPrefix="uc1" %>
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Src="HeThongHoTro/Dashboards/DanhSachYeuCauHT.ascx" TagName="DanhSachYeuCauHT" TagPrefix="uc2" %>
+<asp:Content ContentPlaceHolderID="HeaderCss" runat="server">
+    <style type="text/css">
+        .pagination span, .pagination a {
+            padding-left: 5px;
+        }
+
+            .pagination span.current {
+                color: #E6005B;
+            }
+
+                .pagination span.current.prev, .pagination span.current.next {
+                    color: #333;
+                }
+
+        .pn-msg {
+            display: block;
+            padding: 5px;
+        }
+
+        a.icon-tools {
+            position: relative;
+            height: 20px;
+            display: block;
+            padding-left: 0px;
+        }
+
+        .aui-dropdown-trigger span {
+            right: -3px;
+            bottom: 0px;
+            position: absolute;
+            width: 7px;
+            height: 4px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder_Main" runat="Server">
+    <div style="padding: 10px">
+        <div style="padding-bottom: 10px;">
+            <uc1:DanhSachHoTroXuLyHT ID="DanhSachHoTroXuLy1" runat="server" />
+        </div>
+        <uc2:DanhSachYeuCauHT ID="DanhSachYeuCauHT1" runat="server" />
+    </div>
+</asp:Content>

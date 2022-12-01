@@ -1,0 +1,18 @@
+Request: /Admin/ClearCache.aspx
+UrlReferrer: /Admin/ClearCache.aspx
+Method: POST
+UserName: admin
+Start FullIndex: PhongBan
+---------------------------------------------------
+Request: /Admin/ClearCache.aspx
+UrlReferrer: /Admin/ClearCache.aspx
+Method: POST
+UserName: admin
+Start FullIndex: NguoiSuDung
+---------------------------------------------------
+Request: /Admin/ClearCache.aspx
+UrlReferrer: /Admin/ClearCache.aspx
+Method: POST
+UserName: admin
+Start FullIndex: LoaiKhieuNai
+---------------------------------------------------

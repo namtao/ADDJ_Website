@@ -1,0 +1,99 @@
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\Lucene.Net.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\Newtonsoft.Json.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\SimilarityNet.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\SolrNet.dll
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.xml
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\SolrNet.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\SolrNet.xml
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csprojResolveAssemblyReference.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\GQKN.Archive.Forms.UpdateLoaiKhieuNaiForm.resources
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\GQKN.Archive.MainForm.resources
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\GQKN.Archive.ucUpdateDateKhieuNaiActivity.resources
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\GQKN.Archive.TestForm.resources
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.GenerateResource.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CoreCompileInputs.cache
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CopyComplete
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe.config
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.pdb
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.Properties.Resources.resources
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.exe
+F:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe.config
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Lucene.Net.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Newtonsoft.Json.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SimilarityNet.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.dll
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.xml
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.xml
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.Forms.UpdateLoaiKhieuNaiForm.resources
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.MainForm.resources
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.Properties.Resources.resources
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.ucUpdateDateKhieuNaiActivity.resources
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.TestForm.resources
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.GenerateResource.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CoreCompileInputs.cache
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CopyComplete
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.exe
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.pdb
+F:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csprojResolveAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe.config
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Lucene.Net.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Newtonsoft.Json.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SimilarityNet.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\Highlighter.Net.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\Bin\Debug\SolrNet.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.Forms.UpdateLoaiKhieuNaiForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.MainForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.Properties.Resources.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.ucUpdateDateKhieuNaiActivity.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\GQKN.Archive.TestForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.GenerateResource.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CopyComplete
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Solution\GQKNArchive\obj\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\ADDJ.Archive.exe.config
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\Newtonsoft.Json.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\Highlighter.Net.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\SolrNet.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\Bin\Debug\SolrNet.xml
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.csprojAssemblyReference.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\GQKN.Archive.Forms.UpdateLoaiKhieuNaiForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\GQKN.Archive.MainForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.Properties.Resources.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\GQKN.Archive.ucUpdateDateKhieuNaiActivity.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\GQKN.Archive.TestForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.GenerateResource.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.csproj.CopyComplete
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\GQKNArchive\obj\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\Bin\Debug\ADDJ.Archive.exe.config
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\Bin\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\Bin\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\Bin\Debug\Newtonsoft.Json.dll
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\GQKN.Archive.Forms.UpdateLoaiKhieuNaiForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\GQKN.Archive.MainForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.Properties.Resources.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\GQKN.Archive.ucUpdateDateKhieuNaiActivity.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\GQKN.Archive.TestForm.resources
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.csproj.GenerateResource.cache
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.csproj.CopyComplete
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.exe
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.pdb
+G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Archive\obj\Debug\ADDJ.Archive.csprojAssemblyReference.cache

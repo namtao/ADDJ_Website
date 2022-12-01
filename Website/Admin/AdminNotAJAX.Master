@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/admin/master_default.master"  AutoEventWireup="false" CodeBehind="AdminNotAJAX.Master.cs" Inherits="AdminNotAJAX" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Main" runat="server">   
+    
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="text" id="tblContent">
+        <tr valign="top">           
+            <td style="padding: 0px 5px 0px 5px" valign="top">                
+                <table style="width: 100%;" cellspacing="0" cellpadding="0" border="0">
+                    <tr style="height: 23px">
+                        <td style="width: 9px">
+                            <img alt="" style="border: 0px" src="images/top_left.gif" />
+                        </td>
+                        <td style="background-image: url('images/bg_top.gif'); padding-left: 5px; color: #ffffff">
+                            <strong><asp:Literal ID="lbTitleMain" runat="server"></asp:Literal></strong>
+                        </td>
+                        <td style="width: 9px">
+                            <img alt="" style="border: 0px" src="images/top_right.gif" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background-image: url('images/bg_left.gif')">
+                        </td>
+                        <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff">
+                                <tr valign="top">
+                                    <td style="padding-left: 10px; padding-right: 10px">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder_Text" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="background-image: url('images/bg_right.gif')">
+                        </td>
+                    </tr>
+                    <tr style="height: 13px">
+                        <td style="width: 9px">
+                            <img alt="" style="border: 0px" src="images/bottom_left.gif" />
+                        </td>
+                        <td style="background-image: url('images/bg_bottom.gif'); padding-top: 3px; padding-left: 5px; color: #ffffff">
+                        </td>
+                        <td style="width: 9px">
+                            <img alt="" style="border: 0px" src="images/bottom_right.gif" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

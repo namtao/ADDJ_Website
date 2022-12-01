@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master_Default.master" AutoEventWireup="false" CodeBehind="AdminNotAJAX.Master.cs" Inherits="AdminNotAJAX" %>
+
+<asp:Content ContentPlaceHolderID="HeaderCss" runat="server">
+    <asp:ContentPlaceHolder ID="HeaderCss" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="HeaderJs" runat="server">
+    <asp:ContentPlaceHolder ID="HeaderJs" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder_Main" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Text" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="Content">
+    <asp:ContentPlaceHolder runat="server" ID="Content"></asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,4 @@
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\Bin\Debug\AIVietNam.Control.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\Bin\Debug\AIVietNam.Control.pdb
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\AIVietNam.Control.dll
+E:\VNPT 2016\he thong ho tro ky thuat tap trung CCOS\Code\Solution\AIVietNam.Control\obj\Debug\AIVietNam.Control.pdb

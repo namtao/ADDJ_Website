@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Website.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Website_ProfileService_UserAcc" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://190.10.10.38:1908/Webservice/useracc.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SendSMS_WS_SMS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.211.0.250/ws/ws_sms.asmx</Value>
+    </Setting>
+    <Setting Name="ServiceVNPT_ServiceSyncVNPT_HNI_VINAPHONE" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.10.41.18/WebserviceQLKN/service/GqknVinaphone.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoEZPAY_VNP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8886/VNP.asmx</Value>
+    </Setting>
+    <Setting Name="Website_Subinfo3G_SPI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8886/SPI.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoTS_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8886/Service.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoVAS_Update_CrossSaleService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8886/CrossSaleService.asmx</Value>
+    </Setting>
+    <Setting Name="Website_Subinfo3G_ServiceInterfaceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8886/ServiceInterfaceService.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoTT_VNP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8889/VNP.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoVAS_crossellService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8887/crossellService.asmx</Value>
+    </Setting>
+    <Setting Name="Website_SubinfoTKTT_PpsSubProvisioningService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://123.30.188.38:8885/PpsSubProvisioningService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

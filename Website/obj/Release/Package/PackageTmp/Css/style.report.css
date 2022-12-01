@@ -1,0 +1,20 @@
+﻿
+* { margin: 0px; padding: 0px; }
+body { font-family: Tahoma, Arial,Helvetica,sans-serif; font-size: 12px; }
+.mes { margin: 10px 0px; }
+.mes2 { margin: 10px 0px; }
+.mes span { font-weight: bold; color: red; }
+.main { width: 100%; overflow: auto; }
+.wrapper { padding: 10px; }
+
+.main table th, .main table td { padding: 5px; line-height: 150%; border: 1px solid #b2d4e6; }
+.main table th { background-color: #4d709a; color: white; }
+.main table td.center { text-align: center; }
+
+.wrapper .header { font-weight: bold; text-align: center; font-size: 16px; padding: 10px 0px; }
+.wrapper .time { text-align: center; }
+
+
+.fl { float: left; }
+.fr { float: right; }
+.vide { clear: both; height: 0%; }

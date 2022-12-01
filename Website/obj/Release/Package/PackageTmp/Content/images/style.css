@@ -1,0 +1,100 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    font-size:12px;
+    font-family:Arial;    
+    background:#c0c0c0;
+}
+.wrapper
+{  
+    background:#ffffff;    
+    width: 100%;
+    height:auto;
+    margin:0px auto; 
+    overflow:hidden;   
+}
+.header
+{
+    height:89px;
+    width:100%;
+    overflow: hidden;
+    background:#61ccee;
+    margin-bottom: 70px;
+}
+.center
+{
+    margin-bottom: 20px;
+    width:100%;
+}
+.dangnhap
+{
+    width: 429px;
+    height: 350px;
+    position:relative;
+    margin:0px auto 70px auto;
+    background:url(images/img_dangnhap.png) no-repeat;    
+}
+.text-username
+{
+    position:absolute;
+    top:120px;
+    left: 60px;
+    background: none;
+    border:0px;
+    padding-left: 10px;
+    height: 34px;
+    width: 290px;
+    line-height:34px;
+    }
+.text-pass
+{
+    position:absolute;
+    top:198px;
+    left: 60px;
+    background: none;
+    border:0px;
+    padding-left: 10px;
+    height: 34px;
+    width: 290px;
+    line-height:34px;
+}
+.nutdangnhap
+{
+    position:absolute;
+    top:255px;
+    left: 63px;
+    background: none;    
+    height: 34px;
+    width: 86px;
+    line-height:34px;
+    }
+.nutthoat
+{
+    position:absolute;
+    top:255px;
+    left: 168px;
+    background: none;    
+    height: 34px;
+    width: 86px;
+    line-height:34px;
+}    
+.footer
+{
+    height: 40px;
+    width:100%;
+    text-align:center;
+    background:#61ccee;
+    line-height:40px;   
+    }
+/*----------------------------Trang mua hang------------------------------------*/
+
+/*----------------------------Trang mua hang------------------------------------*/
+.footer p
+{
+    font-size:14px;
+    font-weight:bold;
+    color:#ffffff;}

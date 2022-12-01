@@ -1,0 +1,99 @@
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /HeThongHoTro/Manager/mn_HtQuanLyDonVi.aspx
+Method: GET
+UserName: admin
+Time: 6/1/2022 10:37:49 AM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in D:\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------

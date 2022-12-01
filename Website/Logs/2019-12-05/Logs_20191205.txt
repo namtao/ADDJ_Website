@@ -1,0 +1,44 @@
+Request: /Admin/LogManager.aspx
+UrlReferrer: /ADDJ_TH/views/DoiMatKhau.aspx
+Method: GET
+UserName: admin
+Time: 12/5/2019 4:46:28 PM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /ADDJ_TH/views/DoiMatKhau.aspx
+Method: GET
+UserName: admin
+Time: 12/5/2019 4:46:28 PM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /ADDJ_TH/views/DoiMatKhau.aspx
+Method: GET
+UserName: admin
+Time: 12/5/2019 4:46:28 PM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /Admin/LogManager.aspx
+UrlReferrer: /ADDJ_TH/views/DoiMatKhau.aspx
+Method: GET
+UserName: admin
+Time: 12/5/2019 4:46:28 PM
+Message: Sequence contains no matching element
+Detail:    at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Website.admin.LogManager.GetActionType(Object obj) in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\Website\Admin\LogManager.aspx.cs:line 46
+---------------------------------------------------
+Request: /LoginAI.aspx
+UrlReferrer: /LoginAI.aspx
+Method: POST
+Time: 12/5/2019 10:34:58 PM
+Message: Object reference not set to an instance of an object.
+Detail:    at ADDJ.Core.Config.get_ConnectionString() in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Core\Config.cs:line 20
+   at ADDJ.Core.Config..ctor() in G:\OLD ARCHICE\PROJECT\Quan Ly Van Ban Tu Dong\2018\SO_HOA_ADDJ_2019\Code\ADDJ.Core\Config.cs:line 80
+---------------------------------------------------

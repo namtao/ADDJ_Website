@@ -1,0 +1,221 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Default.master" AutoEventWireup="true" CodeBehind="mn_DmTestDD.aspx.cs" Inherits="Website.HeThongHoTro.Manager.mn_DmNodeLuongXuLy" %>
+
+<%@ Register Assembly="DevExpress.Web.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxTreeList.v20.2, Version=20.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTreeList" TagPrefix="dx" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeaderCss" runat="server">
+    <style type="text/css">
+        .inputstyle.cus input[type=text] {
+            padding: 0 5px;
+            width: 200px;
+        }
+
+        .btn_style_button {
+            padding: 5px 15px;
+        }
+
+        .DDPager {
+            margin: 10px 0px;
+        }
+
+        .tbl_style a {
+            color: #034AFC;
+        }
+
+        .msg {
+            font-size: 12px;
+            font-weight: bold;
+            color: red;
+        }
+
+        div.DDPager {
+            border: 1px solid #ccc;
+            padding: 5px;
+            padding-top: 10px;
+        }
+
+        .DDControl {
+            text-align: center;
+        }
+
+        #mainmenu {
+            position: relative;
+            z-index: 9999;
+        }
+
+        .tbl_style .tooltip {
+            color: black;
+            cursor: help;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="HeaderJs" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_Main" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_Text" runat="server">
+    <script type="text/javascript">
+        // nạp danh sách các luồng hỗ trợ
+        function DanhSachLuongHoTro(val) {
+            alert('ID he thong xu ly ' + val);
+            cboDanhSachLuongYeuCauHoTro.PerformCallback(val);
+        }
+
+
+         function ChonDonVi(s, e) {
+            var tendv = '';
+            var key = treelist_donvi_cc.GetFocusedNodeKey();
+            treelist_donvi_cc.GetNodeValues(key, "linhvuccon", function (value) {
+                LoaiHoTro.SetText(value);
+                tenDonVi = value;
+                LoaiHoTro.SetKeyValue(key);
+                LoaiHoTro.HideDropDown();
+                //cmb_nhanvien_gsbh.PerformCallback(DropDownEdit.GetKeyValue());
+            });
+            // gán id loai hỗ trợ cho hidden
+            //LoaiHTKTID.Set('LoaiHTKTID', key);
+            //noiChuyenDen.PerformCallback();
+        }
+
+        // nạp danh sách các bước xử lý (là danh sách số thứ tự các bước)
+        var postponedCallbackRequired = false;
+        function DanhSachCacBuocXuLy(val) {
+            debugger;
+            alert('idluonghotro ' + val);
+            ASPxHiddenField1.Set('idluonghotro', val);
+             ASPxHiddenField1.Set('hidden_value', val);
+            ASPxHiddenField1.Set('hidden_value2', 1);
+            ASPxHiddenField1.Set('res_value', 1);
+
+            if (CallbackPanel.InCallback())
+                postponedCallbackRequired = true;
+            else
+                CallbackPanel.PerformCallback();
+        }
+        function OnEndCallback(s, e) {
+            if (postponedCallbackRequired) {
+                CallbackPanel.PerformCallback();
+                postponedCallbackRequired = false;
+            }
+        }
+
+        // Nạp danh sách các đơn vị trong bước xử lý này
+        function NapThongTinDonViTrongBuocXuLyNay(val) {
+            alert('buoc xu ly thu ' + val);
+        }
+    </script>
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="Content" runat="server">
+
+    <!-- begin panel nav boot -->
+    <div class="nav_btn_bootstrap">
+        <ul>
+            <li><a href="javascript:history.back()" class="btn btn-primary"><span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>Quay về</a></li>
+            <li><a href="LoaiKhieuNai_Add.aspx" class="btn btn-primary"><span class="new"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Thêm mới</span></a></li>
+            <li>
+                <asp:LinkButton ID="linkbtnUpdate" runat="server" class="btn btn-primary"> <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>Cập nhật </asp:LinkButton>
+            </li>
+            <li>
+                <asp:LinkButton ID="linkbtnDelete" OnClientClick="javascript:{return confirm('Bạn có muốn xóa loại khiếu nại được chọn?');}" CssClass="btn btn-danger" runat="server"> <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Xóa </asp:LinkButton>
+            </li>
+        </ul>
+        <ul style="position: absolute; z-index: 2; right: 10px; top: 5px">
+            <li>
+                <a href="#"><span class="save">
+                    <asp:Button ID="btnUpdateDonViQL" runat="server" CssClass="button_eole" Text="Cập nhật Đơn vị quản lý" />&nbsp;</span></a>
+            </li>
+        </ul>
+    </div>
+    <!-- end panel nav boot -->
+    <div class="p8">
+        <!-- begin panel boot -->
+        <div class="panel panel-default">
+            <div class="panel-heading"><span style="font-size: 12pt"></span></div>
+            <div class="panel-body" style="border: none">
+                <!-- begin body boot -->
+
+
+                <script type="text/javascript">
+                    $(function () {
+                        grvNodeLuongXuLy.PerformCallback();
+                    });
+
+                </script>
+                Chọn hệ thống cần yêu cầu hỗ trợ:
+                <dx:ASPxComboBox ID="cboDanhSachHeThongCanYeuCauHoTro" ClientInstanceName="cboDanhSachHeThongCanYeuCauHoTro" runat="server" EnableTheming="True" Theme="Office2010Blue">
+                    <ClientSideEvents ValueChanged="function(s, e) {
+	DanhSachLuongHoTro(s.GetValue());
+}" />
+                </dx:ASPxComboBox>
+
+
+                Chọn luồng hỗ trợ:
+                <dx:ASPxComboBox ID="cboDanhSachLuongYeuCauHoTro" ClientInstanceName="cboDanhSachLuongYeuCauHoTro" runat="server" Theme="Office2010Blue" OnCallback="cboDanhSachLuongYeuCauHoTro_Callback1" Width="450px">
+                    <ClientSideEvents ValueChanged="function(s, e) {
+	DanhSachCacBuocXuLy(s.GetValue());
+}" />
+                </dx:ASPxComboBox>
+
+                Chọn bước xử lý trong luồng:
+
+
+                <dx:ASPxCallbackPanel ID="ASPxCallbackPanel1" ClientInstanceName="CallbackPanel" runat="server" Width="200px">
+                    <ClientSideEvents EndCallback="OnEndCallback"></ClientSideEvents>
+                    <PanelCollection>
+                        <dx:PanelContent ID="PanelContent3" runat="server">
+                            <dx:ASPxRadioButtonList ID="rdoDanhSachCacBuocXuLy" runat="server" ClientInstanceName="rdoDanhSachCacBuocXuLy" RepeatColumns="5" Theme="Office2010Blue">
+                                <ClientSideEvents SelectedIndexChanged="function(s, e) {
+                                    var index = s.GetSelectedIndex();
+                                    var item = s.GetItem(index);
+                                    ASPxHiddenField1.Set('hidden_value2', 0);
+	                                NapThongTinDonViTrongBuocXuLyNay(item.text);
+                                }" />
+                            </dx:ASPxRadioButtonList>
+                        </dx:PanelContent>
+                    </PanelCollection>
+                </dx:ASPxCallbackPanel>
+
+
+                Chọn đơn vị cho vào bước xử lý 1:
+              
+                
+                 <dx:ASPxDropDownEdit ID="LoaiHoTro" runat="server" Theme="Office2010Blue" ClientInstanceName="LoaiHoTro" AnimationType="None" Width="100%">
+                                                <DropDownWindowTemplate>
+                                                    <div>
+                                                        <dx:ASPxTreeList ID="treelist_donvi_cc" runat="server" Width="350px" ClientInstanceName="treelist_donvi_cc"
+                                                            Theme="Aqua" Font-Names="arial" Font-Size="12px" KeyFieldName="id"
+                                                            OnVirtualModeCreateChildren="treelist_donvi_cc_VirtualModeCreateChildren"
+                                                            OnVirtualModeNodeCreating="treelist_donvi_cc_VirtualModeNodeCreating"
+                                                            OnCustomCallback="treelist_donvi_cc_OnCustomCallback" AutoGenerateColumns="False">
+                                                            <SettingsBehavior AllowFocusedNode="true" FocusNodeOnExpandButtonClick="false" FocusNodeOnLoad="false" />
+                                                            <Settings HorizontalScrollBarMode="Visible" ShowTreeLines="true" SuppressOuterGridLines="true" VerticalScrollBarMode="Visible" />
+                                                            <SettingsSelection AllowSelectAll="True" Enabled="True" Recursive="True" />
+                                                            <ClientSideEvents FocusedNodeChanged="ChonDonVi" NodeExpanding="function(s, e) {
+	                                                          ASPxHiddenField1.Set('hidden_value2', 0);
+                                                        }" />
+                                                            <Columns>
+                                                                <dx:TreeListTextColumn FieldName="TenDoiTac" Caption="Tên đơn vị" Width="350px">
+                                                                </dx:TreeListTextColumn>
+                                                            </Columns>
+                                                        </dx:ASPxTreeList>
+                                                    </div>
+                                                </DropDownWindowTemplate>
+                                            </dx:ASPxDropDownEdit>
+                
+                
+                <dx:ASPxButton ID="ASPxButton1" runat="server" Text="Thêm vào" Theme="Office2010Blue"></dx:ASPxButton>
+                <dx:ASPxButton ID="ASPxButton2" runat="server" Text="Xóa đơn vị đã chọn" Theme="Office2010Blue"></dx:ASPxButton>
+                <dx:ASPxButton ID="ASPxButton3" runat="server" Text="Xem luồng tổng quan" Theme="Office2010Blue"></dx:ASPxButton>
+                Danh sách các đơn vị trong bước xử lý
+                <dx:ASPxGridView ID="grvNodeLuongXuLy" runat="server" ClientInstanceName="grvNodeLuongXuLy" OnCustomCallback="grvNodeLuongXuLy_CustomCallback" OnCustomColumnDisplayText="grvNodeLuongXuLy_CustomColumnDisplayText" OnDataBinding="grvNodeLuongXuLy_DataBinding" OnHtmlDataCellPrepared="grvNodeLuongXuLy_HtmlDataCellPrepared" Theme="Office2010Blue" OnPageIndexChanged="grvNodeLuongXuLy_PageIndexChanged" EnablePagingGestures="False"></dx:ASPxGridView>
+
+
+            </div>
+            <!-- end body boot -->
+        </div>
+    </div>
+    <!-- end panel boot -->
+    <dx:ASPxHiddenField ID="ASPxHiddenField1" ClientInstanceName="ASPxHiddenField1" runat="server">
+    </dx:ASPxHiddenField>
+</asp:Content>
